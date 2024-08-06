@@ -6,28 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gamer Hardware</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
 </head>
 
 <body>
     <header>
+        <h1><a href="../index.html">GamerHarware</a></h1>
         <nav>
-            <span class="logo-header"><a href="../index.html">GamerHarware</a></span>
-            <ul class="ul-header">
-                <li class="inactive-pag"><a href="../index.html">INICIO</a></li>
-                <li class="inactive-pag"><a href="./arma-tu-pc.html">ARMA TU PC</a></li>
-                <li class="inactive-pag"><a href="./rendimiento.html">RENDIMIENTO</a></li>
-                <li class="inactive-pag"><a href="./componentes.html">COMPONENTES</a></li>
-                <li class="active-page"><a class="active-page-text" href="#">PREGUNTAS</a></li>
+            <ul class="navbar">
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="./arma-tu-pc.html">ARMA TU PC</a></li>
+                <li><a href="./rendimiento.html">RENDIMIENTO</a></li>
+                <li><a href="./componentes.html">COMPONENTES</a></li>
+                <li class="on-page"><a href="#">PREGUNTAS</a></li>
             </ul>
         </nav>
     </header>
@@ -36,76 +26,82 @@
         <div>
             <article>
                 <h1 class="text-titulo-pagina-h1">Preguntas Frecuentes</h1>
-                <p>Encuentra respuestas rápidas a las preguntas más comunes sobre hardware y armado de PCs.</p>
+                <p class="texto-intro-belowtitle">
+                    Encuentra respuestas rápidas a las preguntas más comunes sobre hardware y armado de PCs.
+                </p>
             </article>
         </div>
         <div>
             <section>
-                <article>
-                    <!-- <h2>¿Cómo elijo la mejor GPU para mi PC?</h2> -->
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eligendi praesentium
-                        necessitatibus consequatur, repellat officia error voluptate ipsam sunt odio fuga in! Tempora
-                        deleniti error maxime! Veritatis dolores ipsam dignissimos.</p>
+                <article class="backg-cards-components-page">
+                    <h2 class="cards-title-componentes">¿Cómo elijo la mejor GPU para mi PC?</h2>
+                    <p class="card-text-componentes-page padding-text-preguntas">
+                        Considera tu presupuesto, los juegos o aplicaciones que planeas usar y las resoluciones en las
+                        que deseas jugar o trabajar.
+                    </p>
                 </article>
-                <article>
-                    <h2>¿Cuánta RAM necesito para gaming?</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eligendi praesentium
-                        necessitatibus consequatur, repellat officia error voluptate ipsam sunt odio fuga in! Tempora
-                        deleniti error maxime! Veritatis dolores ipsam dignissimos.</p>
+                <article class="backg-cards-components-page">
+                    <h2 class="cards-title-componentes">¿Cuánta RAM necesito para gaming?</h2>
+                    <p class="card-text-componentes-page padding-text-preguntas">
+                        Para la mayoría de los juegos modernos, 16 GB de RAM es suficiente. Para multitarea intensiva y
+                        edición de video, considera 32 GB o más.
+                    </p>
                 </article>
-                <article>
-                    <h2>¿Es mejor un SSD o un HDD para juegos?</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eligendi praesentium
-                        necessitatibus consequatur, repellat officia error voluptate ipsam sunt odio fuga in! Tempora
-                        deleniti error maxime! Veritatis dolores ipsam dignissimos.</p>
+                <article class="backg-cards-components-page">
+                    <h2 class="cards-title-componentes">¿Es mejor un SSD o un HDD para juegos?</h2>
+                    <p class="card-text-componentes-page padding-text-preguntas">
+                        Un SSD es mejor para juegos debido a sus tiempo de carga más rápidos y mejor rendimiento en
+                        general.
+                    </p>
                 </article>
-                <article>
-                    <h2>¿Qué es el overclocking? ¿Es seguro hacerlo?</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eligendi praesentium
-                        necessitatibus consequatur, repellat officia error voluptate ipsam sunt odio fuga in! Tempora
-                        deleniti error maxime! Veritatis dolores ipsam dignissimos.</p>
+                <article class="backg-cards-components-page">
+                    <h2 class="cards-title-componentes">¿Qué es el overclocking? ¿Es seguro hacerlo?</h2>
+                    <p class="card-text-componentes-page padding-text-preguntas">
+                        Es el proceso de aumentar la velocidad de los componentes como la CPU o GPU por encima de sus
+                        especificaciones oficiales. Es seguro si se hace con cuidado y una refrigeración adecuada.
+                    </p>
                 </article>
             </section>
         </div>
         <div>
-            <h3>¡Déjanos tu pregunta!</h3>
-            <input type="search" placeholder="Escribe tu pregunta">
-            <button><a>Enviar</a></button>
+            <h3 class="texto-intro-belowtitle-notcenter">¡Déjanos tu pregunta!</h3>
+            <input type="search" placeholder="Escribe tu pregunta" class="input-placeholder-test">
+            <button class="button-enviar-preguntas"><a href="">Enviar</a></button>
         </div>
     </main>
     <hr>
     <footer>
-        <div class="inline-footer">
-            <ul class="ul-footer-left">
-                <li class="logo-footer"><a href="../index.html">GamerHarware</a></li>
-                <li class="privacy-foot">Politica de privacidad © 2024</li>
+        <div>
+            <ul class="ul-footer">
+                <li><a class="specific-fontstyle-footer1" href="../index.html">GamerHarware</a></li>
+                <li class="specific-fontstyle-footer2">Politica de privacidad © 2024</li>
             </ul>
         </div>
-        <div class="inline-footer">
-            <ul class="ul-footer-middle-left">
-                <li class="con-tac-red-contenido">Contenido</li>
-                <li class="links-foot"><a href="./arma-tu-pc.html">Arma tu PC</a></li>
-                <li class="links-foot"><a href="./rendimiento.html">Rendimiento</a></li>
-                <li class="links-foot"><a href="./componentes.html">Componentes</a></li>
-                <li class="links-foot"><a href="#">Preguntas</a></li>
+        <div>
+            <ul class="ul-footer">
+                <li><a class="specific-fontstyle-footer3">Contenido</a></li>
+                <li><a href="./arma-tu-pc.html">Arma tu PC</a></li>
+                <li><a href="./rendimiento.html">Rendimiento</a></li>
+                <li><a href="./componentes.html">Componentes</a></li>
+                <li><a href="#">Preguntas</a></li>
             </ul>
         </div>
-        <div class="inline-footer">
-            <ul class="ul-footer-middle-right">
-                <li class="con-tac-red-contacto">Contacto</li>
-                <li class="links-foot">AV. Córdoda 5690</li>
-                <li class="links-foot">Tél. 11 23458790</li>
-                <li class="links-foot">gamerhardware@gmail.com</li>
+        <div>
+            <ul class="ul-footer">
+                <li><a class="specific-fontstyle-footer3">Contacto</a></li>
+                <li><a>AV. Córdoda 5690</a></li>
+                <li><a>Tél. 11 23458790</a></li>
+                <li><a>gamerhardware@gmail.com</a></li>
             </ul>
         </div>
-        <div class="inline-footer">
-            <ul class="ul-footer-right">
-                <li class="inline-footer-img-social footer-logo-1"><a href="https://www.instagram.com/"
-                        target="_blank"><img src="../assets/img/instagram-icon.png" alt="icono instragram"></a></li>
-                <li class="inline-footer-img-social footer-logo-2"><a href="https://www.youtube.com/"
-                        target="_blank"><img src="../assets/img/youtube-icon.png" alt="icono youtube"></a></li>
-                <li class="inline-footer-img-social footer-logo-3"><a href="https://www.facebook.com/"
-                        target="_blank"><img src="../assets/img/facebook-icon.png" alt="icono facebook"></a></li>
+        <div>
+            <ul class="social-networks-column">
+                <li><a href="https://www.instagram.com/" target="_blank"><img src="../assets/img/instagram-icon.png"
+                            alt="icono instragram"></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank"><img src="../assets/img/youtube-icon.png"
+                            alt="icono youtube"></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><img src="../assets/img/facebook-icon.png"
+                            alt="icono facebook"></a></li>
             </ul>
         </div>
     </footer>
