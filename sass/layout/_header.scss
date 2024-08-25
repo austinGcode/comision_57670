@@ -1,0 +1,39 @@
+body {
+    header {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 2.55% 0;
+        div {
+            a {
+                font-family: "roboto mono";
+                font-size: 1.5rem;
+                font-weight: 600;
+                text-decoration: none;
+                color: white;
+            }
+        }
+        nav {
+            width: 765px;
+            .navbar {
+                display: flex;
+                flex-wrap: wrap;
+                list-style: none;
+                li {
+                    margin-left: 7.6%;
+                    a {
+                        font-family: "roboto mono";
+                        font-size: 1rem;
+                        font-weight: 400;
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .desktop-no .burger-no {
+        display: none;
+    }
+}
