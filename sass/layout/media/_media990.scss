@@ -21,98 +21,82 @@
                 /* bootstrap */
             }
         }
-    }
-    footer {
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-        grid-template-rows: 25% 25% 25% 25%;
-        margin: 2% 0;
-        div {
-            ul {
-                padding: unset;
-                li {
-                    a {
-                        line-height: 1.89;
+        footer {
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            grid-template-rows: 25% 25% 25% 25%;
+            margin: 2% 0;
+            div {
+                ul {
+                    padding: unset;
+                    li {
+                        a {
+                            line-height: 1.89;
+                        }
                     }
                 }
             }
-        }
-        .footer-div-one {
-            grid-column: 2 / 4;
-            grid-row: 1 / 2;
-            text-align: center;
-            ul {
-                li {
-                    a {
-                    }
-                }
-                .specific-fontstyle-footer2 {
-                    display: none;
-                }
-            }
-        }
-        .footer-div-two {
-            grid-column: 1 / 2;
-            grid-row: 2 / 4;
-            text-align: center;
-            ul {
-                li {
-                    a {
-                    }
-                }
-            }
-        }
-        .footer-div-three {
-            grid-column: 2 / 4;
-            grid-row: 2 / 4;
-            text-align: center;
-            ul {
-                li {
-                    a {
-                    }
-                }
-            }
-        }
-        .footer-div-four {
-            grid-column: 4 / 5;
-            grid-row: 2 / 4;
-            text-align: unset;
-            margin: unset;
-            .social-networks-column {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                width: unset;
-                margin: unset;
-                gap: 15px;
-                list-style: none;
-                padding: unset;
-                li {
-                    margin-left: unset;
-                }
-            }
-        }
-        .footer-div-five {
-            grid-column: 2 / 4;
-            grid-row: 4 / 5;
-            ul {
-                list-style: none;
-                padding: unset;
+            .footer-div-one {
+                grid-column: 2 / 4;
+                grid-row: 1 / 2;
                 text-align: center;
-                li {
-                    a {
-                        text-decoration: none;
-                        font-family: "roboto";
-                        font-size: .875rem;
-                        font-weight: 400;
-                        color: #999999;
+                ul {
+                    .specific-fontstyle-footer2 {
+                        display: none;
+                    }
+                }
+            }
+            .footer-div-two {
+                grid-column: 1 / 2;
+                grid-row: 2 / 4;
+                text-align: center;
+            }
+            .footer-div-three {
+                grid-column: 2 / 4;
+                grid-row: 2 / 4;
+                text-align: center;
+            }
+            .footer-div-four {
+                grid-column: 4 / 5;
+                grid-row: 2 / 4;
+                text-align: unset;
+                margin: unset;
+                .social-networks-column {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: unset;
+                    margin: unset;
+                    gap: 15px;
+                    list-style: none;
+                    padding: unset;
+                    li {
+                        margin-left: unset;
+                    }
+                }
+            }
+            .footer-div-five {
+                grid-column: 2 / 4;
+                grid-row: 4 / 5;
+                ul {
+                    list-style: none;
+                    padding: unset;
+                    text-align: center;
+                    li {
+                        a {
+                            text-decoration: none;
+                            font-family: "roboto";
+                            font-size: .875rem;
+                            font-weight: 400;
+                            color: #999999;
+                        }
                     }
                 }
             }
         }
-    }
-    .desktop-no .privacy-responsive-one {
-        display: unset;
-        margin-top: 8%;
+        .desktop-no .privacy-responsive-one {
+            display: unset;
+            margin-top: 8%;
+        }
     }
 }
