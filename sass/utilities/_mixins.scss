@@ -1,0 +1,6 @@
+@mixin grid-armatupc ($row, $column, $font-family, $color) {
+    grid-row: #{$row};
+    grid-column: #{$column};
+    font-family: $font-family;
+    color: $color;
+}
