@@ -1,16 +1,13 @@
-/*utilities*/
+//utilities
 
-@import "./utilities/variables";
 @import "./utilities/mixins";
-@import "./utilities/maps";
-@import "./utilities/functions";
 
-/*base*/
+//base
 
 @import "./base/reset";
 @import "./base/typography";
 
-/*layout*/
+//layout
 
 @import "./layout/header";
 @import "./layout/main-inicio";
@@ -20,12 +17,12 @@
 @import "./layout/main-preguntas";
 @import "./layout/footer";
 
-/*components*/
+//components
 
 @import "./components/navbar";
 @import "./components/button";
 
-/*mediaqueries*/
+//mediaqueries
 
 @import "./layout/media/media1029";
 @import "./layout/media/media990";

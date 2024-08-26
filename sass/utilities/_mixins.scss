@@ -4,3 +4,22 @@
     font-family: $font-family;
     color: $color;
 }
+
+@mixin armatupc-font-style-one ($font-family, $font-size, $font-weight, $color, $marg-b) {
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    color: $color;
+    margin-bottom: $marg-b;
+}
+
+@mixin ul-armatupc {
+    line-height: 35px;
+    list-style: none;
+}
+
+@mixin armatupc-section-subtitle {
+    letter-spacing: 10px;
+    text-align: center;
+    margin-top: 2.5%;
+}
