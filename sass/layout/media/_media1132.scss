@@ -1,0 +1,19 @@
+@media (max-width: 1132px) {
+    body {
+        .grid-inicio {
+            .section-1 {
+                h1 {
+                    font-size: 2rem;
+                }
+                article {
+                    p {
+                        font-size: 1.5rem;
+                    }
+                }
+                button {
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    }
+}

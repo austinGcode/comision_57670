@@ -928,6 +928,23 @@ body .desktop-no .privacy-responsive-one {
   color: black;
   padding: 15px 10px; }
 
+@media (max-width: 1294px) {
+  body .grid-inicio .section-1 h1 {
+    font-size: 2.4rem;
+    font-weight: 800; }
+  body .grid-inicio .section-1 article p {
+    font-size: 1.6rem; }
+  body .grid-inicio .section-1 button {
+    font-size: 1.37rem; } }
+
+@media (max-width: 1132px) {
+  body .grid-inicio .section-1 h1 {
+    font-size: 2rem; }
+  body .grid-inicio .section-1 article p {
+    font-size: 1.5rem; }
+  body .grid-inicio .section-1 button {
+    font-size: 1.25rem; } }
+
 @media (max-width: 1029px) {
   body {
     margin: 0 2.67%; } }
@@ -946,6 +963,8 @@ body .desktop-no .privacy-responsive-one {
     display: unset;
     margin-right: 5%;
     /* bootstrap */ }
+  body .grid-inicio .section-1 button {
+    font-size: 1.125rem; }
   body footer {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -1001,6 +1020,22 @@ body .desktop-no .privacy-responsive-one {
   body .desktop-no .privacy-responsive-one {
     display: unset;
     margin-top: 8%; } }
+
+@media (max-width: 920px) {
+  body .grid-inicio .section-1 h1 {
+    font-size: 1.75rem; }
+  body .grid-inicio .section-1 article p {
+    font-size: 1.375rem; }
+  body .grid-inicio .section-1 button {
+    font-size: 1rem; } }
+
+@media (max-width: 805px) {
+  body .grid-inicio .section-1 h1 {
+    font-size: 1.625rem; }
+  body .grid-inicio .section-1 article p {
+    font-size: 1.2188rem; }
+  body .grid-inicio .section-1 button {
+    font-size: 1rem; } }
 
 @media (max-width: 744px) {
   body {
@@ -1074,7 +1109,29 @@ body .desktop-no .privacy-responsive-one {
     body footer div .ul-footer {
       padding: unset; } }
 
+@media (max-width: 805px) {
+  body .grid-inicio .section-1 h1 {
+    font-size: 1.625rem; }
+  body .grid-inicio .section-1 article p {
+    font-size: 1.125rem; }
+  body .grid-inicio .section-1 button {
+    font-size: 1rem; } }
+
 @media (max-width: 545px) {
+  body .grid-inicio .section-1 h1 {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    font-family: "roboto";
+    font-size: 1.4375rem;
+    font-weight: 700;
+    color: white;
+    margin: 3% 5% 0.5% 5%;
+    padding: 0;
+    text-align: center; }
+  body .grid-inicio .section-1 article p {
+    font-size: 1.125rem; }
+  body .grid-inicio .section-1 button {
+    font-size: 1rem; }
   body footer {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;

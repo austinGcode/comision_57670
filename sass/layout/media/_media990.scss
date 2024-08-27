@@ -21,6 +21,13 @@
                 /* bootstrap */
             }
         }
+        .grid-inicio {
+            .section-1 {
+                button {
+                    font-size: 1.125rem;
+                }
+            }
+        }
         footer {
             display: grid;
             grid-template-columns: 25% 25% 25% 25%;
