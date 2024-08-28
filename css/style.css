@@ -952,10 +952,9 @@ body .desktop-no .privacy-responsive-one {
 @media (max-width: 990px) {
   body header {
     flex-wrap: nowrap; }
-    body header div {
-      margin-left: 7%; }
-      body header div a {
-        font-size: 1.625rem; }
+    body header div a {
+      font-size: 1.625rem;
+      margin-left: 35%; }
     body header .delete-this-responsive {
       display: none;
       /* long navbar, no burger */ }
@@ -1189,6 +1188,10 @@ body .desktop-no .privacy-responsive-one {
         font-size: .75rem;
         font-weight: 400;
         color: #999999; } }
+
+@media (max-width: 990px) {
+  body header div a {
+    margin-left: 15%; } }
 
 @media (max-width: 380px) {
   body .grid-inicio .section-1-flex {
