@@ -1,0 +1,25 @@
+@media (max-width: 380px) {
+    body {
+        .grid-inicio {
+            .section-1-flex {
+                grid-template-rows: 20% 80%;
+            }
+            .section-1 {
+                article {
+                    margin: 1% 5% 1% 5%;
+                    p {
+                        margin: 8% 0 0 0;
+                    }
+                }
+                button {
+                    width: 80%;
+                    height: 35%;
+                    margin: 35% 0% 0 6%;
+                    a {
+                        padding: 1%;
+                    }
+                }
+            }
+        }
+    }
+}
