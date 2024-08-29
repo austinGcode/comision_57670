@@ -5,17 +5,19 @@
     color: $color;
 }
 
-@mixin armatupc-font-style-one ($font-family, $font-size, $font-weight, $color, $marg-b) {
+@mixin armatupc-font-style-one ($font-family, $font-size, $font-weight, $color, $marg) {
     font-family: $font-family;
     font-size: $font-size;
     font-weight: $font-weight;
     color: $color;
-    margin-bottom: $marg-b;
+    margin: $marg;
 }
 
 @mixin ul-armatupc {
     line-height: 35px;
     list-style: none;
+    padding: unset;
+    margin: 0 10% 1.5% 10%;
 }
 
 @mixin armatupc-section-subtitle {
