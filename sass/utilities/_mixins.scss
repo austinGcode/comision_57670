@@ -1,27 +1,79 @@
-@mixin grid-armatupc ($row, $column, $font-family, $color) {
-    grid-row: #{$row};
-    grid-column: #{$column};
-    font-family: $font-family;
+@mixin display-flexbox-container ($flex, $f-direction, $f-wrap) {
+    display: $flex;
+    flex-direction: $f-direction;
+    flex-wrap: $f-wrap;
+}
+
+@mixin flexbox-container-prop ($justify-content, $align-items, $align-content, $row-gap, $column-gap, $contain) {
+    justify-content: $justify-content;
+    align-items: $align-items;
+    align-content: $align-content;
+    row-gap: $row-gap;
+    column-gap: $column-gap;
+    contain: $contain;
+}
+
+@mixin display-flexbox-item ($order, $flex, $align-self, $overflow, $position, $contain) {
+    order: $order;
+    flex: $flex;
+    align-self: $align-self;
+    overflow: $overflow;
+    position: $position;
+    contain: $contain;
+}
+
+@mixin display-grid-container ($grid, $grid-temp-col, $grid-temp-row, $grid-temp-area) {
+    display: $grid;
+    grid-template-columns: $grid-temp-col;
+    grid-template-rows: $grid-temp-row;
+    grid-template-areas: $grid-temp-area;
+}
+
+@mixin grid-container-prop ($gap, $align-items, $justify-items, $align-content, $justify-content) {
+    gap: $gap;
+    align-items: $align-items;
+    justify-items: $justify-items;
+    align-content: $align-content;
+    justify-content: $justify-content;
+}
+
+@mixin display-grid-item ($grid-col, $grid-row, $align-self, $justify-self) {
+    grid-column: #{$grid-col};
+    grid-row: #{$grid-row};
+    align-self: $align-self;
+    justify-self: $justify-self;
+}
+
+@mixin font-styles ($fontfamily, $fontsize, $fontweight, $color, $letter-spacing) {
+    font-family: $fontfamily;
+    font-size: $fontsize;
+    font-weight: $fontweight;
     color: $color;
+    letter-spacing: $letter-spacing;
 }
 
-@mixin armatupc-font-style-one ($font-family, $font-size, $font-weight, $color, $marg) {
-    font-family: $font-family;
-    font-size: $font-size;
-    font-weight: $font-weight;
-    color: $color;
-    margin: $marg;
+@mixin margin-border-padding ($margin, $border, $padding) {
+    margin: $margin;
+    border: $border;
+    padding: $padding;
 }
 
-@mixin ul-armatupc {
-    line-height: 35px;
-    list-style: none;
-    padding: unset;
-    margin: 0 10% 1.5% 10%;
+@mixin lineheight-liststyle ($line-height, $list-style) {
+    line-height: $line-height;
+    list-style: $list-style;
 }
 
-@mixin armatupc-section-subtitle {
-    letter-spacing: 10px;
-    text-align: center;
-    margin-top: 2.5%;
+@mixin textalign-textdeco ($text-aling, $text-deco) {
+    text-align: $text-aling;
+    text-decoration: $text-deco;
+}
+
+@mixin width-height ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin borderadious-backcolor ($border-radious, $background-color) {
+    border-radius: $border-radious;
+    background-color: $background-color;
 }

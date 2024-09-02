@@ -94,335 +94,476 @@ body .grid-inicio {
         display: block; }
 
 body .grid-armatupc {
+  width: unset;
+  height: 6500px;
   display: grid;
-  width: 100%;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 7.3% 2% 18.5% 18.5% 19% 11% 11.25% 11.25%;
-  justify-content: center;
-  margin: 0 0 5% 0; }
+  grid-template-rows: 7.5% 1.5% 17.5% 17.9% 17.9% 12.8% 12.8% 12.1%;
+  grid-template-areas: unset; }
   body .grid-armatupc .section-armatupc-1 {
-    grid-row: 1 / 2;
     grid-column: 1 / 5;
-    font-family: "roboto";
-    color: white;
-    margin: 0 7% 3% 7%; }
-    body .grid-armatupc .section-armatupc-1 .article-armatupc-flex-1 {
-      width: 100%;
-      height: 100%;
-      margin-top: 3%;
+    grid-row: 1 / 2;
+    align-self: unset;
+    justify-self: unset; }
+    body .grid-armatupc .section-armatupc-1 article {
       display: flex;
       flex-direction: column;
-      justify-content: space-between; }
-      body .grid-armatupc .section-armatupc-1 .article-armatupc-flex-1 h1 {
+      flex-wrap: unset; }
+      body .grid-armatupc .section-armatupc-1 article h1 {
+        font-family: "roboto";
         font-size: 3rem;
         font-weight: 900;
+        color: white;
+        letter-spacing: 0.1rem;
         text-align: center;
-        padding: 0;
-        margin: 0; }
-      body .grid-armatupc .section-armatupc-1 .article-armatupc-flex-1 p {
+        text-decoration: unset;
+        margin: 0.5rem 0;
+        border: 0;
+        padding: 0.5rem; }
+      body .grid-armatupc .section-armatupc-1 article p {
+        font-family: "roboto";
         font-size: 1.625rem;
-        font-weight: 600;
+        font-weight: 500;
+        color: white;
+        letter-spacing: 0.03rem;
         text-align: center;
-        padding: 0;
-        margin: 0; }
-      body .grid-armatupc .section-armatupc-1 .article-armatupc-flex-1 .intro-2 {
-        font-family: unset;
-        font-size: 1.5rem;
+        text-decoration: unset;
+        margin: 0.5rem 0;
+        border: 0;
+        padding: 0.1rem 0; }
+      body .grid-armatupc .section-armatupc-1 article .paragraph-two {
+        font-family: "roboto";
+        font-size: 1.8rem;
         font-weight: 500;
         color: black;
-        margin: unset;
-        padding: 3% 5%;
+        letter-spacing: 0.02rem;
         border-radius: 30px;
-        background-color: #bababa; }
+        background-color: #bababa;
+        margin: 0.1rem 0;
+        border: 0;
+        padding: 2rem 3rem; }
   body .grid-armatupc .section-armatupc-2 {
-    grid-row: 2 / 3;
     grid-column: 1 / 5;
-    font-family: none;
-    color: unset; }
+    grid-row: 2 / 3;
+    align-self: center;
+    justify-self: unset; }
     body .grid-armatupc .section-armatupc-2 ul {
       display: flex;
       flex-direction: row;
-      gap: 0.5%;
+      flex-wrap: unset;
+      justify-content: unset;
+      align-items: unset;
+      align-content: unset;
+      row-gap: 0.5%;
+      column-gap: 0.5%;
+      contain: unset;
+      line-height: 1.5rem;
       list-style: none;
-      margin: 1.3% 0 0 0;
-      padding: 0; }
+      margin: unset;
+      border: unset;
+      padding: unset; }
       body .grid-armatupc .section-armatupc-2 ul li {
-        width: 16%;
-        height: 62px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: unset;
+        justify-content: center;
+        width: 100%;
+        height: 3.875rem;
+        margin: unset;
+        border: unset;
         padding: 0.5% 1.5%;
-        align-content: center;
-        text-align: center;
         border-radius: 30px;
-        background-color: #0A84FF; }
+        background-color: #0a84ff; }
         body .grid-armatupc .section-armatupc-2 ul li a {
+          order: unset;
+          flex: unset;
+          align-self: center;
+          overflow: unset;
+          position: unset;
+          contain: unset;
           font-family: "roboto mono";
-          font-size: 1.125rem;
+          font-size: 1.2rem;
           font-weight: 400;
           color: white;
-          margin: none;
-          letter-spacing: 2px;
-          text-decoration: none; }
+          letter-spacing: 0.1rem;
+          text-align: center;
+          text-decoration: unset; }
   body .grid-armatupc .section-armatupc-3 {
-    grid-row: 3 / 4;
     grid-column: 1 / 5;
-    font-family: "roboto";
-    color: white;
-    width: 100%;
+    grid-row: 3 / 4;
+    align-self: unset;
+    justify-self: unset;
+    width: unset;
     height: fit-content;
-    background-color: #bababa15;
-    border-radius: 30px; }
-    body .grid-armatupc .section-armatupc-3 .armatupc-section-subtitle {
+    border-radius: 30px;
+    background-color: #bababa15; }
+    body .grid-armatupc .section-armatupc-3 h2 {
       font-family: "roboto mono";
       font-size: 1.875rem;
       font-weight: 400;
       color: white;
-      margin: 0 0 2.5% 0;
-      letter-spacing: 10px;
-      text-align: center;
-      margin-top: 2.5%; }
-    body .grid-armatupc .section-armatupc-3 .article-armatupc-flex-2 {
+      letter-spacing: 0.5rem;
+      margin: 2.5% 0;
+      border: unset;
+      padding: unset;
+      text-align: center; }
+    body .grid-armatupc .section-armatupc-3 article {
       display: flex;
-      width: 100%;
-      gap: 25px; }
-      body .grid-armatupc .section-armatupc-3 .article-armatupc-flex-2 div {
+      flex-direction: row;
+      flex-wrap: unset;
+      justify-content: unset;
+      align-items: unset;
+      align-content: unset;
+      row-gap: unset;
+      column-gap: 3%;
+      contain: unset; }
+      body .grid-armatupc .section-armatupc-3 article div {
         display: flex;
         flex-direction: column;
+        flex-wrap: unset;
+        justify-content: unset;
         align-items: center;
+        align-content: unset;
+        row-gap: unset;
+        column-gap: unset;
+        contain: unset;
+        border-radius: 30px;
         background-color: #bababa21;
-        border-radius: 30px; }
-        body .grid-armatupc .section-armatupc-3 .article-armatupc-flex-2 div h3 {
+        margin: unset;
+        border: unset;
+        padding: 0 0 2.5% 0; }
+        body .grid-armatupc .section-armatupc-3 article div h3 {
           font-family: "roboto";
-          font-size: 1.5rem;
+          font-size: 1.55rem;
           font-weight: 800;
-          color: #409FFF;
-          margin: 3% 0; }
-        body .grid-armatupc .section-armatupc-3 .article-armatupc-flex-2 div .ul-armatupc {
-          line-height: 35px;
+          color: #409fff;
+          letter-spacing: 0.03rem;
+          margin: 2.5% 0;
+          border: unset;
+          padding: unset; }
+        body .grid-armatupc .section-armatupc-3 article div ul {
+          line-height: unset;
           list-style: none;
-          padding: unset;
-          margin: 0 10% 1.5% 10%;
-          padding: unset;
-          margin: 0 10% 1.5% 10%; }
-          body .grid-armatupc .section-armatupc-3 .article-armatupc-flex-2 div .ul-armatupc li {
+          margin: 0 10%;
+          border: unset;
+          padding: unset; }
+          body .grid-armatupc .section-armatupc-3 article div ul li {
             font-family: "roboto";
-            font-size: 1.25rem;
+            font-size: 1.3rem;
             font-weight: 500;
-            color: unset;
-            margin: none; }
-            body .grid-armatupc .section-armatupc-3 .article-armatupc-flex-2 div .ul-armatupc li .specific-fontstyle-armatupc {
+            color: white;
+            letter-spacing: 0.01rem; }
+            body .grid-armatupc .section-armatupc-3 article div ul li span {
               font-family: unset;
-              font-size: 1.375rem;
+              font-size: 1.43rem;
               font-weight: 900;
               color: unset;
-              margin: none; }
+              letter-spacing: 0.02rem; }
   body .grid-armatupc .section-armatupc-4 {
+    grid-column: 1 / 5;
     grid-row: 4 / 5;
-    grid-column: 1 / 5;
-    font-family: "roboto";
-    color: white; }
-    body .grid-armatupc .section-armatupc-4 .armatupc-section-subtitle {
+    align-self: unset;
+    justify-self: unset;
+    width: unset;
+    height: fit-content;
+    border-radius: 30px;
+    background-color: #bababa15; }
+    body .grid-armatupc .section-armatupc-4 h2 {
       font-family: "roboto mono";
       font-size: 1.875rem;
       font-weight: 400;
       color: white;
-      margin: none;
-      letter-spacing: 10px;
-      text-align: center;
-      margin-top: 2.5%; }
-    body .grid-armatupc .section-armatupc-4 .article-armatupc-flex-2 {
+      letter-spacing: 0.5rem;
+      margin: 2.5% 0;
+      border: unset;
+      padding: unset;
+      text-align: center; }
+    body .grid-armatupc .section-armatupc-4 article {
       display: flex;
-      width: 100%; }
-      body .grid-armatupc .section-armatupc-4 .article-armatupc-flex-2 div {
-        width: 35%;
-        max-height: 40%;
-        margin: 2% 0 0 10%; }
-        body .grid-armatupc .section-armatupc-4 .article-armatupc-flex-2 div h3 {
+      flex-direction: row;
+      flex-wrap: unset;
+      justify-content: unset;
+      align-items: unset;
+      align-content: unset;
+      row-gap: unset;
+      column-gap: 3%;
+      contain: unset; }
+      body .grid-armatupc .section-armatupc-4 article div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: unset;
+        justify-content: unset;
+        align-items: center;
+        align-content: unset;
+        row-gap: unset;
+        column-gap: unset;
+        contain: unset;
+        border-radius: 30px;
+        background-color: #bababa21;
+        margin: unset;
+        border: unset;
+        padding: 0 0 2.5% 0;
+        width: 50%;
+        height: unset; }
+        body .grid-armatupc .section-armatupc-4 article div h3 {
           font-family: "roboto";
-          font-size: 1.5rem;
-          font-weight: 800;
-          color: #409FFF;
-          margin: 0 2%; }
-        body .grid-armatupc .section-armatupc-4 .article-armatupc-flex-2 div .ul-armatupc {
-          line-height: 35px;
+          font-size: 1.55rem;
+          font-weight: 700;
+          color: #409fff;
+          letter-spacing: 0.03rem;
+          margin: 2.5% 0;
+          border: unset;
+          padding: unset; }
+        body .grid-armatupc .section-armatupc-4 article div ul {
+          line-height: unset;
           list-style: none;
-          padding: unset;
-          margin: 0 10% 1.5% 10%; }
-          body .grid-armatupc .section-armatupc-4 .article-armatupc-flex-2 div .ul-armatupc li {
+          margin: 0 10%;
+          border: unset;
+          padding: unset; }
+          body .grid-armatupc .section-armatupc-4 article div ul li {
             font-family: "roboto";
-            font-size: 1.25rem;
+            font-size: 1.3rem;
             font-weight: 500;
-            color: unset;
-            margin: none; }
-            body .grid-armatupc .section-armatupc-4 .article-armatupc-flex-2 div .ul-armatupc li .specific-fontstyle-armatupc {
+            color: white;
+            letter-spacing: 0.01rem; }
+            body .grid-armatupc .section-armatupc-4 article div ul li span {
               font-family: unset;
-              font-size: 1.375rem;
+              font-size: 1.43rem;
               font-weight: 900;
               color: unset;
-              margin: none; }
+              letter-spacing: 0.02rem; }
   body .grid-armatupc .section-armatupc-5 {
-    grid-row: 5 / 6;
     grid-column: 1 / 5;
-    font-family: "roboto";
-    color: white; }
-    body .grid-armatupc .section-armatupc-5 .armatupc-section-subtitle {
+    grid-row: 5 / 6;
+    align-self: unset;
+    justify-self: unset;
+    width: unset;
+    height: fit-content;
+    border-radius: 30px;
+    background-color: #bababa15; }
+    body .grid-armatupc .section-armatupc-5 h2 {
       font-family: "roboto mono";
       font-size: 1.875rem;
       font-weight: 400;
       color: white;
-      margin: none;
-      letter-spacing: 10px;
-      text-align: center;
-      margin-top: 2.5%; }
-    body .grid-armatupc .section-armatupc-5 .article-armatupc-flex-2 {
+      letter-spacing: 0.5rem;
+      margin: 2.5% 0;
+      border: unset;
+      padding: unset;
+      text-align: center; }
+    body .grid-armatupc .section-armatupc-5 article {
       display: flex;
-      width: 100%; }
-      body .grid-armatupc .section-armatupc-5 .article-armatupc-flex-2 div {
-        width: 35%;
-        max-height: 40%;
-        margin: 2% 0 0 10%; }
-        body .grid-armatupc .section-armatupc-5 .article-armatupc-flex-2 div h3 {
+      flex-direction: row;
+      flex-wrap: unset;
+      justify-content: unset;
+      align-items: unset;
+      align-content: unset;
+      row-gap: unset;
+      column-gap: 3%;
+      contain: unset; }
+      body .grid-armatupc .section-armatupc-5 article div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: unset;
+        justify-content: unset;
+        align-items: center;
+        align-content: unset;
+        row-gap: unset;
+        column-gap: unset;
+        contain: unset;
+        border-radius: 30px;
+        background-color: #bababa21;
+        margin: unset;
+        border: unset;
+        padding: 0 0 2.5% 0;
+        width: 50%;
+        height: unset; }
+        body .grid-armatupc .section-armatupc-5 article div h3 {
           font-family: "roboto";
-          font-size: 1.5rem;
+          font-size: 1.55rem;
           font-weight: 800;
-          color: #409FFF;
-          margin: 0 2%; }
-        body .grid-armatupc .section-armatupc-5 .article-armatupc-flex-2 div .ul-armatupc {
-          line-height: 35px;
+          color: #409fff;
+          letter-spacing: 0.03rem;
+          margin: 2.5% 0;
+          border: unset;
+          padding: unset; }
+        body .grid-armatupc .section-armatupc-5 article div ul {
+          line-height: unset;
           list-style: none;
-          padding: unset;
-          margin: 0 10% 1.5% 10%; }
-          body .grid-armatupc .section-armatupc-5 .article-armatupc-flex-2 div .ul-armatupc li {
+          margin: 0 10%;
+          border: unset;
+          padding: unset; }
+          body .grid-armatupc .section-armatupc-5 article div ul li {
             font-family: "roboto";
-            font-size: 1.25rem;
+            font-size: 1.3rem;
             font-weight: 500;
-            color: unset;
-            margin: none; }
-            body .grid-armatupc .section-armatupc-5 .article-armatupc-flex-2 div .ul-armatupc li .specific-fontstyle-armatupc {
+            color: white;
+            letter-spacing: 0.01rem; }
+            body .grid-armatupc .section-armatupc-5 article div ul li span {
               font-family: unset;
-              font-size: 1.375rem;
+              font-size: 1.43rem;
               font-weight: 900;
               color: unset;
-              margin: none; }
+              letter-spacing: 0.02rem; }
   body .grid-armatupc .section-armatupc-6 {
+    grid-column: 1 / 5;
     grid-row: 6 / 7;
-    grid-column: 1 / 5;
-    font-family: "roboto";
-    color: white; }
-    body .grid-armatupc .section-armatupc-6 .armatupc-section-subtitle {
+    align-self: unset;
+    justify-self: unset;
+    border-radius: 30px;
+    background-color: #bababa15;
+    width: unset;
+    height: fit-content; }
+    body .grid-armatupc .section-armatupc-6 h2 {
       font-family: "roboto mono";
       font-size: 1.875rem;
       font-weight: 400;
       color: white;
-      margin: none;
-      letter-spacing: 10px;
-      text-align: center;
-      margin-top: 2.5%; }
-    body .grid-armatupc .section-armatupc-6 .article-armatupc-flex-3 div {
-      height: 100%;
-      margin: 2% 0 0 10%; }
-      body .grid-armatupc .section-armatupc-6 .article-armatupc-flex-3 div h3 {
+      letter-spacing: 0.5rem;
+      margin: 2.5% 0;
+      border: unset;
+      padding: unset;
+      text-align: center; }
+    body .grid-armatupc .section-armatupc-6 article div {
+      border-radius: 30px;
+      background-color: #bababa21;
+      margin: unset;
+      border: unset;
+      padding: 0 0 2.5% 0; }
+      body .grid-armatupc .section-armatupc-6 article div h3 {
         font-family: "roboto";
-        font-size: 1.5rem;
+        font-size: 1.55rem;
         font-weight: 800;
-        color: #409FFF;
-        margin: 0 2%; }
-      body .grid-armatupc .section-armatupc-6 .article-armatupc-flex-3 div .ul-armatupc {
-        line-height: 35px;
+        color: #409fff;
+        letter-spacing: 0.03rem;
+        margin: unset;
+        border: unset;
+        padding: 2.5% 0;
+        text-align: center; }
+      body .grid-armatupc .section-armatupc-6 article div ul {
+        line-height: unset;
         list-style: none;
-        padding: unset;
-        margin: 0 10% 1.5% 10%; }
-        body .grid-armatupc .section-armatupc-6 .article-armatupc-flex-3 div .ul-armatupc li {
+        margin: 0 10%;
+        border: unset;
+        padding: unset; }
+        body .grid-armatupc .section-armatupc-6 article div ul li {
           font-family: "roboto";
-          font-size: 1.25rem;
+          font-size: 1.3rem;
           font-weight: 500;
-          color: unset;
-          margin: none; }
-          body .grid-armatupc .section-armatupc-6 .article-armatupc-flex-3 div .ul-armatupc li .specific-fontstyle-armatupc {
+          color: white;
+          letter-spacing: 0.01rem; }
+          body .grid-armatupc .section-armatupc-6 article div ul li span {
             font-family: unset;
-            font-size: 1.375rem;
+            font-size: 1.43rem;
             font-weight: 900;
             color: unset;
-            margin: none; }
+            letter-spacing: 0.02rem; }
   body .grid-armatupc .section-armatupc-7 {
+    grid-column: 1 / 5;
     grid-row: 7 / 8;
-    grid-column: 1 / 5;
-    font-family: "roboto";
-    color: white; }
-    body .grid-armatupc .section-armatupc-7 .armatupc-section-subtitle {
+    align-self: unset;
+    justify-self: unset;
+    border-radius: 30px;
+    background-color: #bababa15;
+    width: unset;
+    height: fit-content; }
+    body .grid-armatupc .section-armatupc-7 h2 {
       font-family: "roboto mono";
       font-size: 1.875rem;
       font-weight: 400;
       color: white;
-      margin: none;
-      letter-spacing: 10px;
-      text-align: center;
-      margin-top: 2.5%; }
-    body .grid-armatupc .section-armatupc-7 .article-armatupc-flex-3 div {
-      height: 100%;
-      margin: 2% 0 0 10%; }
-      body .grid-armatupc .section-armatupc-7 .article-armatupc-flex-3 div h3 {
+      letter-spacing: 0.5rem;
+      margin: 2.5% 0;
+      border: unset;
+      padding: unset;
+      text-align: center; }
+    body .grid-armatupc .section-armatupc-7 article div {
+      border-radius: 30px;
+      background-color: #bababa21;
+      margin: unset;
+      border: unset;
+      padding: 0 0 2.5% 0; }
+      body .grid-armatupc .section-armatupc-7 article div h3 {
         font-family: "roboto";
-        font-size: 1.5rem;
+        font-size: 1.55rem;
         font-weight: 800;
-        color: #409FFF;
-        margin: 0 2%; }
-      body .grid-armatupc .section-armatupc-7 .article-armatupc-flex-3 div .ul-armatupc {
-        line-height: 35px;
+        color: #409fff;
+        letter-spacing: 0.03rem;
+        margin: unset;
+        border: unset;
+        padding: 2.5% 0;
+        text-align: center; }
+      body .grid-armatupc .section-armatupc-7 article div ul {
+        line-height: unset;
         list-style: none;
-        padding: unset;
-        margin: 0 10% 1.5% 10%; }
-        body .grid-armatupc .section-armatupc-7 .article-armatupc-flex-3 div .ul-armatupc li {
+        margin: 0 10%;
+        border: unset;
+        padding: unset; }
+        body .grid-armatupc .section-armatupc-7 article div ul li {
           font-family: "roboto";
-          font-size: 1.25rem;
+          font-size: 1.3rem;
           font-weight: 500;
-          color: unset;
-          margin: none; }
-          body .grid-armatupc .section-armatupc-7 .article-armatupc-flex-3 div .ul-armatupc li .specific-fontstyle-armatupc {
+          color: white;
+          letter-spacing: 0.01rem; }
+          body .grid-armatupc .section-armatupc-7 article div ul li span {
             font-family: unset;
-            font-size: 1.375rem;
+            font-size: 1.43rem;
             font-weight: 900;
             color: unset;
-            margin: none; }
+            letter-spacing: 0.02rem; }
   body .grid-armatupc .section-armatupc-8 {
-    grid-row: 8 / 9;
     grid-column: 1 / 5;
-    font-family: "roboto";
-    color: white; }
-    body .grid-armatupc .section-armatupc-8 .armatupc-section-subtitle {
+    grid-row: 8 / 9;
+    align-self: unset;
+    justify-self: unset;
+    border-radius: 30px;
+    background-color: #bababa15;
+    width: unset;
+    height: fit-content; }
+    body .grid-armatupc .section-armatupc-8 h2 {
       font-family: "roboto mono";
       font-size: 1.875rem;
       font-weight: 400;
       color: white;
-      margin: none;
-      letter-spacing: 10px;
-      text-align: center;
-      margin-top: 2.5%; }
-    body .grid-armatupc .section-armatupc-8 .article-armatupc-flex-3 div {
-      height: 100%;
-      margin: 2% 0 0 10%; }
-      body .grid-armatupc .section-armatupc-8 .article-armatupc-flex-3 div h3 {
+      letter-spacing: 0.5rem;
+      margin: 2.5% 0;
+      border: unset;
+      padding: unset;
+      text-align: center; }
+    body .grid-armatupc .section-armatupc-8 article div {
+      border-radius: 30px;
+      background-color: #bababa21;
+      margin: unset;
+      border: unset;
+      padding: 0 0 2.5% 0; }
+      body .grid-armatupc .section-armatupc-8 article div h3 {
         font-family: "roboto";
-        font-size: 1.5rem;
+        font-size: 1.55rem;
         font-weight: 800;
-        color: #409FFF;
-        margin: 0 2%; }
-      body .grid-armatupc .section-armatupc-8 .article-armatupc-flex-3 div .ul-armatupc {
-        line-height: 35px;
+        color: #409fff;
+        letter-spacing: 0.03rem;
+        margin: unset;
+        border: unset;
+        padding: 2.5% 0;
+        text-align: center; }
+      body .grid-armatupc .section-armatupc-8 article div ul {
+        line-height: unset;
         list-style: none;
-        padding: unset;
-        margin: 0 10% 1.5% 10%; }
-        body .grid-armatupc .section-armatupc-8 .article-armatupc-flex-3 div .ul-armatupc li {
+        margin: 0 10%;
+        border: unset;
+        padding: unset; }
+        body .grid-armatupc .section-armatupc-8 article div ul li {
           font-family: "roboto";
-          font-size: 1.25rem;
+          font-size: 1.3rem;
           font-weight: 500;
-          color: unset;
-          margin: none; }
-          body .grid-armatupc .section-armatupc-8 .article-armatupc-flex-3 div .ul-armatupc li .specific-fontstyle-armatupc {
+          color: white;
+          letter-spacing: 0.01rem; }
+          body .grid-armatupc .section-armatupc-8 article div ul li span {
             font-family: unset;
-            font-size: 1.375rem;
+            font-size: 1.43rem;
             font-weight: 900;
             color: unset;
-            margin: none; }
+            letter-spacing: 0.02rem; }
 
 body .grid-rendimiento {
   display: grid;

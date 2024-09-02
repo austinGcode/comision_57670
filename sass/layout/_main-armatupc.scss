@@ -1,116 +1,96 @@
 // armatupc width: 1440px
 body {
     .grid-armatupc {
-        display: grid;
-        width: 100%;
-        grid-template-columns: 25% 25% 25% 25%;
-        grid-template-rows: 7.3% 2% 18.5% 18.5% 19% 11% 11.25% 11.25%;
-        justify-content: center;
-        margin: 0 0 5% 0;
+        @include width-height (unset, 6500px);
+        @include display-grid-container (grid, 25% 25% 25% 25%, 7.5% 1.5% 17.5% 17.9% 17.9% 12.8% 12.8% 12.1%, unset);
+
 
         .section-armatupc-1 {
-            @include grid-armatupc ("1 / 2", "1 / 5", "roboto", white);
-            margin: 0 7% 3% 7%;
+            @include display-grid-item ("1 / 5", "1 / 2", unset, unset);
 
-            .article-armatupc-flex-1 {
-                width: 100%;
-                height: 100%;
-                margin-top: 3%;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
+            article {
+                @include display-flexbox-container (flex, column, unset);
 
                 h1 {
-                    font-size: 3rem;
-                    font-weight: 900;
-                    text-align: center;
-                    padding: 0;
-                    margin: 0;
+                    @include font-styles ("roboto", 3rem, 900, white, 0.1rem);
+                    @include textalign-textdeco (center, unset);
+                    @include margin-border-padding (0.5rem 0, 0, 0.5rem);
                 }
 
                 p {
-                    font-size: 1.625rem;
-                    font-weight: 600;
-                    text-align: center;
-                    padding: 0;
-                    margin: 0;
+                    @include font-styles ("roboto", 1.625rem, 500, white, 0.03rem);
+                    @include textalign-textdeco (center, unset);
+                    @include margin-border-padding (0.5rem 0, 0, 0.1rem 0);
                 }
 
-                .intro-2 {
-                    @include armatupc-font-style-one (unset, 1.5rem, 500, black, unset);
-                    padding: 3% 5%;
-                    border-radius: 30px;
-                    background-color: #bababa;
+                .paragraph-two {
+                    @include font-styles ("roboto", 1.8rem, 500, black, 0.02rem);
+                    @include borderadious-backcolor (30px, #bababa);
+                    @include margin-border-padding (0.1rem 0, 0, 2rem 3rem);
                 }
             }
         }
 
         .section-armatupc-2 {
-            @include grid-armatupc ("2 / 3", "1 / 5", none, unset);
+            @include display-grid-item ("1 / 5", "2 / 3", center, unset);
 
             ul {
-                display: flex;
-                flex-direction: row;
-                gap: 0.5%;
-                list-style: none;
-                margin: 1.3% 0 0 0;
-                padding: 0;
+                @include display-flexbox-container (flex, row, unset);
+                @include flexbox-container-prop (unset, unset, unset, 0.5%, 0.5%, unset);
+                @include lineheight-liststyle (1.5rem, none);
+                @include margin-border-padding (unset, unset, unset);
+
                 li {
-                    width: 16%;
-                    height: 62px;
-                    padding: 0.5% 1.5%;
-                    align-content: center;
-                    text-align: center;
-                    border-radius: 30px;
-                    background-color: #0A84FF;
+                    @include display-flexbox-container (flex, row, unset);
+                    justify-content: center;
+                    @include width-height (100%, 3.875rem);
+                    @include margin-border-padding (unset, unset, 0.5% 1.5%);
+                    @include borderadious-backcolor (30px, #0a84ff);
 
                     a {
-                        @include armatupc-font-style-one ("roboto mono", 1.125rem, 400, white, none);
-                        letter-spacing: 2px;
-                        text-decoration: none;
+                        @include display-flexbox-item (unset, unset, center, unset, unset, unset);
+                        @include font-styles ("roboto mono", 1.2rem, 400, white, 0.1rem);
+                        @include textalign-textdeco (center, unset);
                     }
                 }
             }
         }
 
         .section-armatupc-3 {
-            @include grid-armatupc ("3 / 4", "1 / 5", "roboto", white);
-            width: 100%;
-            height: fit-content;
-            background-color: #bababa15;
-            border-radius: 30px;
+            @include display-grid-item ("1 / 5", "3 / 4", unset, unset);
+            @include width-height (unset, fit-content);
+            @include borderadious-backcolor (30px, #bababa15);
 
-            .armatupc-section-subtitle {
-                @include armatupc-font-style-one ("roboto mono", 1.875rem, 400, white, 0 0 2.5% 0);
-                @include armatupc-section-subtitle;
+            h2 {
+                @include font-styles ("roboto mono", 1.875rem, 400, white, 0.5rem);
+                @include margin-border-padding (2.5% 0, unset, unset);
+                text-align: center
             }
 
-            .article-armatupc-flex-2 {
-                display: flex;
-                width: 100%;
-                gap: 25px;
+            article {
+                @include display-flexbox-container (flex, row, unset);
+                @include flexbox-container-prop (unset, unset, unset, unset, 3%, unset);
 
                 div {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    background-color: #bababa21;
-                    border-radius: 30px;
+                    @include display-flexbox-container (flex, column, unset);
+                    @include flexbox-container-prop (unset, center, unset, unset, unset, unset);
+                    @include borderadious-backcolor (30px, #bababa21);
+                    @include margin-border-padding (unset, unset, 0 0 2.5% 0);
 
                     h3 {
-                        @include armatupc-font-style-one ("roboto", 1.5rem, 800, #409FFF, 3% 0);
+                        @include font-styles ("roboto", 1.55rem, 800, #409fff, 0.03rem);
+                        @include margin-border-padding (2.5% 0, unset, unset);
                     }
 
-                    .ul-armatupc {
-                        @include ul-armatupc;
-                        padding: unset;
-                        margin: 0 10% 1.5% 10%;
+                    ul {
+                        @include lineheight-liststyle (unset, none);
+                        @include margin-border-padding (0 10%, unset, unset);
 
                         li {
-                            @include armatupc-font-style-one ("roboto", 1.25rem, 500, unset, none);
+                            @include font-styles ("roboto", 1.3rem, 500, white, 0.01rem);
 
-                            .specific-fontstyle-armatupc {
-                                @include armatupc-font-style-one (unset, 1.375rem, 900, unset, none);
+                            span {
+                                @include font-styles (unset, 1.43rem, 900, unset, 0.02rem);
                             }
                         }
                     }
@@ -119,34 +99,41 @@ body {
         }
 
         .section-armatupc-4 {
-            @include grid-armatupc ("4 / 5", "1 / 5", "roboto", white);
+            @include display-grid-item ("1 / 5", "4 / 5", unset, unset);
+            @include width-height (unset, fit-content);
+            @include borderadious-backcolor (30px, #bababa15);
 
-            .armatupc-section-subtitle {
-                @include armatupc-font-style-one ("roboto mono", 1.875rem, 400, white, none);
-                @include armatupc-section-subtitle;
+            h2 {
+                @include font-styles ("roboto mono", 1.875rem, 400, white, 0.5rem);
+                @include margin-border-padding (2.5% 0, unset, unset);
+                text-align: center
             }
 
-            .article-armatupc-flex-2 {
-                display: flex;
-                width: 100%;
+            article {
+                @include display-flexbox-container (flex, row, unset);
+                @include flexbox-container-prop (unset, unset, unset, unset, 3%, unset);
 
                 div {
-                    width: 35%;
-                    max-height: 40%;
-                    margin: 2% 0 0 10%;
+                    @include display-flexbox-container (flex, column, unset);
+                    @include flexbox-container-prop (unset, center, unset, unset, unset, unset);
+                    @include borderadious-backcolor (30px, #bababa21);
+                    @include margin-border-padding (unset, unset, 0 0 2.5% 0);
+                    @include width-height (50%, unset);
 
                     h3 {
-                        @include armatupc-font-style-one ("roboto", 1.5rem, 800, #409FFF, 0 2%);
+                        @include font-styles ("roboto", 1.55rem, 700, #409fff, 0.03rem);
+                        @include margin-border-padding (2.5% 0, unset, unset);
                     }
 
-                    .ul-armatupc {
-                        @include ul-armatupc;
+                    ul {
+                        @include lineheight-liststyle (unset, none);
+                        @include margin-border-padding (0 10%, unset, unset);
 
                         li {
-                            @include armatupc-font-style-one ("roboto", 1.25rem, 500, unset, none);
+                            @include font-styles ("roboto", 1.3rem, 500, white, 0.01rem);
 
-                            .specific-fontstyle-armatupc {
-                                @include armatupc-font-style-one (unset, 1.375rem, 900, unset, none);
+                            span {
+                                @include font-styles (unset, 1.43rem, 900, unset, 0.02rem);
                             }
                         }
                     }
@@ -155,34 +142,41 @@ body {
         }
 
         .section-armatupc-5 {
-            @include grid-armatupc ("5 / 6", "1 / 5", "roboto", white);
+            @include display-grid-item ("1 / 5", "5 / 6", unset, unset);
+            @include width-height (unset, fit-content);
+            @include borderadious-backcolor (30px, #bababa15);
 
-            .armatupc-section-subtitle {
-                @include armatupc-font-style-one ("roboto mono", 1.875rem, 400, white, none);
-                @include armatupc-section-subtitle;
+            h2 {
+                @include font-styles ("roboto mono", 1.875rem, 400, white, 0.5rem);
+                @include margin-border-padding (2.5% 0, unset, unset);
+                text-align: center
             }
 
-            .article-armatupc-flex-2 {
-                display: flex;
-                width: 100%;
+            article {
+                @include display-flexbox-container (flex, row, unset);
+                @include flexbox-container-prop (unset, unset, unset, unset, 3%, unset);
 
                 div {
-                    width: 35%;
-                    max-height: 40%;
-                    margin: 2% 0 0 10%;
+                    @include display-flexbox-container (flex, column, unset);
+                    @include flexbox-container-prop (unset, center, unset, unset, unset, unset);
+                    @include borderadious-backcolor (30px, #bababa21);
+                    @include margin-border-padding (unset, unset, 0 0 2.5% 0);
+                    @include width-height (50%, unset);
 
                     h3 {
-                        @include armatupc-font-style-one ("roboto", 1.5rem, 800, #409FFF, 0 2%);
+                        @include font-styles ("roboto", 1.55rem, 800, #409fff, 0.03rem);
+                        @include margin-border-padding (2.5% 0, unset, unset);
                     }
 
-                    .ul-armatupc {
-                        @include ul-armatupc;
+                    ul {
+                        @include lineheight-liststyle (unset, none);
+                        @include margin-border-padding (0 10%, unset, unset);
 
                         li {
-                            @include armatupc-font-style-one ("roboto", 1.25rem, 500, unset, none);
+                            @include font-styles ("roboto", 1.3rem, 500, white, 0.01rem);
 
-                            .specific-fontstyle-armatupc {
-                                @include armatupc-font-style-one (unset, 1.375rem, 900, unset, none);
+                            span {
+                                @include font-styles (unset, 1.43rem, 900, unset, 0.02rem);
                             }
                         }
                     }
@@ -191,30 +185,36 @@ body {
         }
 
         .section-armatupc-6 {
-            @include grid-armatupc ("6 / 7", "1 / 5", "roboto", white);
+            @include display-grid-item ("1 / 5", "6 / 7", unset, unset);
+            @include borderadious-backcolor (30px, #bababa15);
+            @include width-height (unset, fit-content);
 
-            .armatupc-section-subtitle {
-                @include armatupc-font-style-one ("roboto mono", 1.875rem, 400, white, none);
-                @include armatupc-section-subtitle;
+            h2 {
+                @include font-styles ("roboto mono", 1.875rem, 400, white, 0.5rem);
+                @include margin-border-padding (2.5% 0, unset, unset);
+                text-align: center
             }
 
-            .article-armatupc-flex-3 {
+            article {
                 div {
-                    height: 100%;
-                    margin: 2% 0 0 10%;
+                    @include borderadious-backcolor (30px, #bababa21);
+                    @include margin-border-padding (unset, unset, 0 0 2.5% 0);
 
                     h3 {
-                        @include armatupc-font-style-one ("roboto", 1.5rem, 800, #409FFF, 0 2%);
+                        @include font-styles ("roboto", 1.55rem, 800, #409fff, 0.03rem);
+                        @include margin-border-padding (unset, unset, 2.5% 0);
+                        text-align: center;
                     }
 
-                    .ul-armatupc {
-                        @include ul-armatupc;
+                    ul {
+                        @include lineheight-liststyle (unset, none);
+                        @include margin-border-padding (0 10%, unset, unset);
 
                         li {
-                            @include armatupc-font-style-one ("roboto", 1.25rem, 500, unset, none);
+                            @include font-styles ("roboto", 1.3rem, 500, white, 0.01rem);
 
-                            .specific-fontstyle-armatupc {
-                                @include armatupc-font-style-one (unset, 1.375rem, 900, unset, none);
+                            span {
+                                @include font-styles (unset, 1.43rem, 900, unset, 0.02rem);
                             }
                         }
                     }
@@ -223,30 +223,36 @@ body {
         }
 
         .section-armatupc-7 {
-            @include grid-armatupc ("7 / 8", "1 / 5", "roboto", white);
+            @include display-grid-item ("1 / 5", "7 / 8", unset, unset);
+            @include borderadious-backcolor (30px, #bababa15);
+            @include width-height (unset, fit-content);
 
-            .armatupc-section-subtitle {
-                @include armatupc-font-style-one ("roboto mono", 1.875rem, 400, white, none);
-                @include armatupc-section-subtitle;
+            h2 {
+                @include font-styles ("roboto mono", 1.875rem, 400, white, 0.5rem);
+                @include margin-border-padding (2.5% 0, unset, unset);
+                text-align: center
             }
 
-            .article-armatupc-flex-3 {
+            article {
                 div {
-                    height: 100%;
-                    margin: 2% 0 0 10%;
+                    @include borderadious-backcolor (30px, #bababa21);
+                    @include margin-border-padding (unset, unset, 0 0 2.5% 0);
 
                     h3 {
-                        @include armatupc-font-style-one ("roboto", 1.5rem, 800, #409FFF, 0 2%);
+                        @include font-styles ("roboto", 1.55rem, 800, #409fff, 0.03rem);
+                        @include margin-border-padding (unset, unset, 2.5% 0);
+                        text-align: center;
                     }
 
-                    .ul-armatupc {
-                        @include ul-armatupc;
+                    ul {
+                        @include lineheight-liststyle (unset, none);
+                        @include margin-border-padding (0 10%, unset, unset);
 
                         li {
-                            @include armatupc-font-style-one ("roboto", 1.25rem, 500, unset, none);
+                            @include font-styles ("roboto", 1.3rem, 500, white, 0.01rem);
 
-                            .specific-fontstyle-armatupc {
-                                @include armatupc-font-style-one (unset, 1.375rem, 900, unset, none);
+                            span {
+                                @include font-styles (unset, 1.43rem, 900, unset, 0.02rem);
                             }
                         }
                     }
@@ -255,30 +261,36 @@ body {
         }
 
         .section-armatupc-8 {
-            @include grid-armatupc ("8 / 9", "1 / 5", "roboto", white);
+            @include display-grid-item ("1 / 5", "8 / 9", unset, unset);
+            @include borderadious-backcolor (30px, #bababa15);
+            @include width-height (unset, fit-content);
 
-            .armatupc-section-subtitle {
-                @include armatupc-font-style-one ("roboto mono", 1.875rem, 400, white, none);
-                @include armatupc-section-subtitle;
+            h2 {
+                @include font-styles ("roboto mono", 1.875rem, 400, white, 0.5rem);
+                @include margin-border-padding (2.5% 0, unset, unset);
+                text-align: center
             }
 
-            .article-armatupc-flex-3 {
+            article {
                 div {
-                    height: 100%;
-                    margin: 2% 0 0 10%;
+                    @include borderadious-backcolor (30px, #bababa21);
+                    @include margin-border-padding (unset, unset, 0 0 2.5% 0);
 
                     h3 {
-                        @include armatupc-font-style-one ("roboto", 1.5rem, 800, #409FFF, 0 2%);
+                        @include font-styles ("roboto", 1.55rem, 800, #409fff, 0.03rem);
+                        @include margin-border-padding (unset, unset, 2.5% 0);
+                        text-align: center;
                     }
 
-                    .ul-armatupc {
-                        @include ul-armatupc;
+                    ul {
+                        @include lineheight-liststyle (unset, none);
+                        @include margin-border-padding (0 10%, unset, unset);
 
                         li {
-                            @include armatupc-font-style-one ("roboto", 1.25rem, 500, unset, none);
+                            @include font-styles ("roboto", 1.3rem, 500, white, 0.01rem);
 
-                            .specific-fontstyle-armatupc {
-                                @include armatupc-font-style-one (unset, 1.375rem, 900, unset, none);
+                            span {
+                                @include font-styles (unset, 1.43rem, 900, unset, 0.02rem);
                             }
                         }
                     }
