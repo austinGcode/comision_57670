@@ -1116,6 +1116,189 @@ body .desktop-no .privacy-responsive-one {
   body {
     margin: 0 2.67%; } }
 
+@media (max-width: 1024px) {
+  body .grid-armatupc {
+    width: unset;
+    height: 6000px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7% 1.5% 17.5% 17.9% 17.9% 12.8% 12.8% 12.1%;
+    grid-template-areas: unset; }
+    body .grid-armatupc .section-armatupc-1 article h1 {
+      font-family: "roboto";
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: white;
+      letter-spacing: 0.1rem; }
+    body .grid-armatupc .section-armatupc-1 article p {
+      font-family: "roboto";
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: white;
+      letter-spacing: 0.02rem; }
+    body .grid-armatupc .section-armatupc-1 article .paragraph-two {
+      font-family: "roboto";
+      font-size: 1.4rem;
+      font-weight: 500;
+      color: black;
+      letter-spacing: 0.01rem; }
+    body .grid-armatupc .section-armatupc-2 ul {
+      line-height: 1.2rem;
+      list-style: none; }
+      body .grid-armatupc .section-armatupc-2 ul li {
+        width: 100%;
+        height: 3.5rem; }
+        body .grid-armatupc .section-armatupc-2 ul li a {
+          font-family: "roboto mono";
+          font-size: 1rem;
+          font-weight: 400;
+          color: white;
+          letter-spacing: 0.02rem; }
+    body .grid-armatupc .section-armatupc-3 h2 {
+      font-family: "roboto mono";
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: white;
+      letter-spacing: 0.5rem; }
+    body .grid-armatupc .section-armatupc-3 article div h3 {
+      font-family: "roboto";
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: #409fff;
+      letter-spacing: 0.03rem; }
+    body .grid-armatupc .section-armatupc-3 article div ul li {
+      font-family: "roboto";
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: white;
+      letter-spacing: 0.01rem; }
+      body .grid-armatupc .section-armatupc-3 article div ul li span {
+        font-family: unset;
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: unset;
+        letter-spacing: 0.02rem; }
+    body .grid-armatupc .section-armatupc-4 h2 {
+      font-family: "roboto mono";
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: white;
+      letter-spacing: 0.5rem; }
+    body .grid-armatupc .section-armatupc-4 article div h3 {
+      font-family: "roboto";
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: #409fff;
+      letter-spacing: 0.03rem; }
+    body .grid-armatupc .section-armatupc-4 article div ul li {
+      font-family: "roboto";
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: white;
+      letter-spacing: 0.01rem; }
+      body .grid-armatupc .section-armatupc-4 article div ul li span {
+        font-family: unset;
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: unset;
+        letter-spacing: 0.02rem; }
+    body .grid-armatupc .section-armatupc-5 h2 {
+      font-family: "roboto mono";
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: white;
+      letter-spacing: 0.5rem; }
+    body .grid-armatupc .section-armatupc-5 article div h3 {
+      font-family: "roboto";
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: #409fff;
+      letter-spacing: 0.03rem; }
+    body .grid-armatupc .section-armatupc-5 article div ul li {
+      font-family: "roboto";
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: white;
+      letter-spacing: 0.01rem; }
+      body .grid-armatupc .section-armatupc-5 article div ul li span {
+        font-family: unset;
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: unset;
+        letter-spacing: 0.02rem; }
+    body .grid-armatupc .section-armatupc-6 h2 {
+      font-family: "roboto mono";
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: white;
+      letter-spacing: 0.5rem; }
+    body .grid-armatupc .section-armatupc-6 article div h3 {
+      font-family: "roboto";
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: #409fff;
+      letter-spacing: 0.03rem; }
+    body .grid-armatupc .section-armatupc-6 article div ul li {
+      font-family: "roboto";
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: white;
+      letter-spacing: 0.01rem; }
+      body .grid-armatupc .section-armatupc-6 article div ul li span {
+        font-family: unset;
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: unset;
+        letter-spacing: 0.02rem; }
+    body .grid-armatupc .section-armatupc-7 h2 {
+      font-family: "roboto mono";
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: white;
+      letter-spacing: 0.5rem; }
+    body .grid-armatupc .section-armatupc-7 article div h3 {
+      font-family: "roboto";
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: #409fff;
+      letter-spacing: 0.03rem; }
+    body .grid-armatupc .section-armatupc-7 article div ul li {
+      font-family: "roboto";
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: white;
+      letter-spacing: 0.01rem; }
+      body .grid-armatupc .section-armatupc-7 article div ul li span {
+        font-family: unset;
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: unset;
+        letter-spacing: 0.02rem; }
+    body .grid-armatupc .section-armatupc-8 h2 {
+      font-family: "roboto mono";
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: white;
+      letter-spacing: 0.5rem; }
+    body .grid-armatupc .section-armatupc-8 article div h3 {
+      font-family: "roboto";
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: #409fff;
+      letter-spacing: 0.03rem; }
+    body .grid-armatupc .section-armatupc-8 article div ul li {
+      font-family: "roboto";
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: white;
+      letter-spacing: 0.01rem; }
+      body .grid-armatupc .section-armatupc-8 article div ul li span {
+        font-family: unset;
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: unset;
+        letter-spacing: 0.02rem; } }
+
 @media (max-width: 990px) {
   body header {
     flex-wrap: nowrap; }
