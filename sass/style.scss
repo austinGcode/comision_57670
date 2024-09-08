@@ -10,11 +10,11 @@
 //layout
 
 @import "./layout/header";
-@import "./layout/main-inicio";
-@import "./layout/main-armatupc";
-@import "./layout/main-rendimiento";
-@import "./layout/main-componentes";
-@import "./layout/main-preguntas";
+@import "./layout/mainstyles/main-inicio";
+@import "./layout/mainstyles/main-armatupc";
+@import "./layout/mainstyles/main-rendimiento";
+@import "./layout/mainstyles/main-componentes";
+@import "./layout/mainstyles/main-preguntas";
 @import "./layout/footer";
 
 //components
@@ -24,16 +24,22 @@
 
 //mediaqueries
 
-@import "./layout/media/media1294";
-@import "./layout/media/media1132";
-@import "./layout/media/media1029";
-@import "./layout/media/media1024";
-@import "./layout/media/media990";
-@import "./layout/media/media920";
-@import "./layout/media/media805";
-@import "./layout/media/media744";
-@import "./layout/media/media605";
-@import "./layout/media/media545";
-@import "./layout/media/media450";
-@import "./layout/media/media380";
-@import "./layout/media/media340";
+@import "./layout/standard-medias/media2560";
+@import "./layout/standard-medias/media1440";
+@import "./layout/inbetween-media/media1294";
+@import "./layout/inbetween-media/media1132";
+@import "./layout/inbetween-media/media1029";
+@import "./layout/standard-medias/media1024";
+@import "./layout/inbetween-media/media990";
+@import "./layout/inbetween-media/media920";
+@import "./layout/inbetween-media/media805";
+@import "./layout/standard-medias/media768";
+@import "./layout/inbetween-media/media744";
+@import "./layout/inbetween-media/media605";
+@import "./layout/inbetween-media/media545";
+@import "./layout/inbetween-media/media450";
+@import "./layout/standard-medias/media425";
+@import "./layout/inbetween-media/media380";
+@import "./layout/standard-medias/media375";
+@import "./layout/inbetween-media/media340";
+@import "./layout/standard-medias/media320";
