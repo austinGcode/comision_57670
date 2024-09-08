@@ -3,26 +3,20 @@ body {
     .grid-armatupc {
         @include width-height (unset, 6500px);
         @include display-grid-container (grid, 25% 25% 25% 25%, 7.5% 1.5% 17.5% 17.9% 17.9% 12.8% 12.8% 12.1%, unset);
-
-
         .section-armatupc-1 {
             @include display-grid-item ("1 / 5", "1 / 2", unset, unset);
-
             article {
                 @include display-flexbox-container (flex, column, unset);
-
                 h1 {
                     @include font-styles ("roboto", 3rem, 900, white, 0.1rem);
                     @include textalign-textdeco (center, unset);
                     @include margin-border-padding (0.5rem 0, 0, 0.5rem);
                 }
-
                 p {
                     @include font-styles ("roboto", 1.625rem, 500, white, 0.03rem);
                     @include textalign-textdeco (center, unset);
                     @include margin-border-padding (0.5rem 0, 0, 0.1rem 0);
                 }
-
                 .paragraph-two {
                     @include font-styles ("roboto", 1.8rem, 500, black, 0.02rem);
                     @include borderadious-backcolor (30px, #bababa);
@@ -30,23 +24,19 @@ body {
                 }
             }
         }
-
         .section-armatupc-2 {
             @include display-grid-item ("1 / 5", "2 / 3", center, unset);
-
             ul {
                 @include display-flexbox-container (flex, row, unset);
                 @include flexbox-container-prop (unset, unset, unset, 0.5%, 0.5%, unset);
                 @include lineheight-liststyle (1.5rem, none);
                 @include margin-border-padding (unset, unset, unset);
-
                 li {
                     @include display-flexbox-container (flex, row, unset);
                     justify-content: center;
                     @include width-height (100%, 3.875rem);
                     @include margin-border-padding (unset, unset, 0.5% 1.5%);
                     @include borderadious-backcolor (30px, #0a84ff);
-
                     a {
                         @include display-flexbox-item (unset, unset, center, unset, unset, unset);
                         @include font-styles ("roboto mono", 1.2rem, 400, white, 0.1rem);
@@ -55,83 +45,32 @@ body {
                 }
             }
         }
-
         .section-armatupc-3 {
             @include display-grid-item ("1 / 5", "3 / 4", unset, unset);
             @include width-height (unset, fit-content);
             @include borderadious-backcolor (30px, #bababa15);
-
             h2 {
                 @include font-styles ("roboto mono", 1.875rem, 400, white, 0.5rem);
                 @include margin-border-padding (2.5% 0, unset, unset);
                 text-align: center
             }
-
             article {
                 @include display-flexbox-container (flex, row, unset);
                 @include flexbox-container-prop (unset, unset, unset, unset, 3%, unset);
-
                 div {
                     @include display-flexbox-container (flex, column, unset);
                     @include flexbox-container-prop (unset, center, unset, unset, unset, unset);
                     @include borderadious-backcolor (30px, #bababa21);
                     @include margin-border-padding (unset, unset, 0 0 2.5% 0);
-
-                    h3 {
-                        @include font-styles ("roboto", 1.55rem, 800, #409fff, 0.03rem);
-                        @include margin-border-padding (2.5% 0, unset, unset);
-                    }
-
-                    ul {
-                        @include lineheight-liststyle (unset, none);
-                        @include margin-border-padding (0 10%, unset, unset);
-
-                        li {
-                            @include font-styles ("roboto", 1.3rem, 500, white, 0.01rem);
-
-                            span {
-                                @include font-styles (unset, 1.43rem, 900, unset, 0.02rem);
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        .section-armatupc-4 {
-            @include display-grid-item ("1 / 5", "4 / 5", unset, unset);
-            @include width-height (unset, fit-content);
-            @include borderadious-backcolor (30px, #bababa15);
-
-            h2 {
-                @include font-styles ("roboto mono", 1.875rem, 400, white, 0.5rem);
-                @include margin-border-padding (2.5% 0, unset, unset);
-                text-align: center
-            }
-
-            article {
-                @include display-flexbox-container (flex, row, unset);
-                @include flexbox-container-prop (unset, unset, unset, unset, 3%, unset);
-
-                div {
-                    @include display-flexbox-container (flex, column, unset);
-                    @include flexbox-container-prop (unset, center, unset, unset, unset, unset);
-                    @include borderadious-backcolor (30px, #bababa21);
-                    @include margin-border-padding (unset, unset, 0 0 2.5% 0);
-                    @include width-height (50%, unset);
-
                     h3 {
                         @include font-styles ("roboto", 1.55rem, 700, #409fff, 0.03rem);
                         @include margin-border-padding (2.5% 0, unset, unset);
                     }
-
                     ul {
                         @include lineheight-liststyle (unset, none);
                         @include margin-border-padding (0 10%, unset, unset);
-
                         li {
                             @include font-styles ("roboto", 1.3rem, 500, white, 0.01rem);
-
                             span {
                                 @include font-styles (unset, 1.43rem, 900, unset, 0.02rem);
                             }
@@ -140,155 +79,29 @@ body {
                 }
             }
         }
-
-        .section-armatupc-5 {
-            @include display-grid-item ("1 / 5", "5 / 6", unset, unset);
-            @include width-height (unset, fit-content);
-            @include borderadious-backcolor (30px, #bababa15);
-
-            h2 {
-                @include font-styles ("roboto mono", 1.875rem, 400, white, 0.5rem);
-                @include margin-border-padding (2.5% 0, unset, unset);
-                text-align: center
-            }
-
-            article {
-                @include display-flexbox-container (flex, row, unset);
-                @include flexbox-container-prop (unset, unset, unset, unset, 3%, unset);
-
-                div {
-                    @include display-flexbox-container (flex, column, unset);
-                    @include flexbox-container-prop (unset, center, unset, unset, unset, unset);
-                    @include borderadious-backcolor (30px, #bababa21);
-                    @include margin-border-padding (unset, unset, 0 0 2.5% 0);
-                    @include width-height (50%, unset);
-
-                    h3 {
-                        @include font-styles ("roboto", 1.55rem, 800, #409fff, 0.03rem);
-                        @include margin-border-padding (2.5% 0, unset, unset);
-                    }
-
-                    ul {
-                        @include lineheight-liststyle (unset, none);
-                        @include margin-border-padding (0 10%, unset, unset);
-
-                        li {
-                            @include font-styles ("roboto", 1.3rem, 500, white, 0.01rem);
-
-                            span {
-                                @include font-styles (unset, 1.43rem, 900, unset, 0.02rem);
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
         .section-armatupc-6 {
             @include display-grid-item ("1 / 5", "6 / 7", unset, unset);
             @include borderadious-backcolor (30px, #bababa15);
             @include width-height (unset, fit-content);
-
             h2 {
                 @include font-styles ("roboto mono", 1.875rem, 400, white, 0.5rem);
                 @include margin-border-padding (2.5% 0, unset, unset);
                 text-align: center
             }
-
             article {
                 div {
                     @include borderadious-backcolor (30px, #bababa21);
                     @include margin-border-padding (unset, unset, 0 0 2.5% 0);
-
                     h3 {
                         @include font-styles ("roboto", 1.55rem, 800, #409fff, 0.03rem);
                         @include margin-border-padding (unset, unset, 2.5% 0);
                         text-align: center;
                     }
-
                     ul {
                         @include lineheight-liststyle (unset, none);
                         @include margin-border-padding (0 10%, unset, unset);
-
                         li {
                             @include font-styles ("roboto", 1.3rem, 500, white, 0.01rem);
-
-                            span {
-                                @include font-styles (unset, 1.43rem, 900, unset, 0.02rem);
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        .section-armatupc-7 {
-            @include display-grid-item ("1 / 5", "7 / 8", unset, unset);
-            @include borderadious-backcolor (30px, #bababa15);
-            @include width-height (unset, fit-content);
-
-            h2 {
-                @include font-styles ("roboto mono", 1.875rem, 400, white, 0.5rem);
-                @include margin-border-padding (2.5% 0, unset, unset);
-                text-align: center
-            }
-
-            article {
-                div {
-                    @include borderadious-backcolor (30px, #bababa21);
-                    @include margin-border-padding (unset, unset, 0 0 2.5% 0);
-
-                    h3 {
-                        @include font-styles ("roboto", 1.55rem, 800, #409fff, 0.03rem);
-                        @include margin-border-padding (unset, unset, 2.5% 0);
-                        text-align: center;
-                    }
-
-                    ul {
-                        @include lineheight-liststyle (unset, none);
-                        @include margin-border-padding (0 10%, unset, unset);
-
-                        li {
-                            @include font-styles ("roboto", 1.3rem, 500, white, 0.01rem);
-
-                            span {
-                                @include font-styles (unset, 1.43rem, 900, unset, 0.02rem);
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        .section-armatupc-8 {
-            @include display-grid-item ("1 / 5", "8 / 9", unset, unset);
-            @include borderadious-backcolor (30px, #bababa15);
-            @include width-height (unset, fit-content);
-
-            h2 {
-                @include font-styles ("roboto mono", 1.875rem, 400, white, 0.5rem);
-                @include margin-border-padding (2.5% 0, unset, unset);
-                text-align: center
-            }
-
-            article {
-                div {
-                    @include borderadious-backcolor (30px, #bababa21);
-                    @include margin-border-padding (unset, unset, 0 0 2.5% 0);
-
-                    h3 {
-                        @include font-styles ("roboto", 1.55rem, 800, #409fff, 0.03rem);
-                        @include margin-border-padding (unset, unset, 2.5% 0);
-                        text-align: center;
-                    }
-
-                    ul {
-                        @include lineheight-liststyle (unset, none);
-                        @include margin-border-padding (0 10%, unset, unset);
-
-                        li {
-                            @include font-styles ("roboto", 1.3rem, 500, white, 0.01rem);
-
                             span {
                                 @include font-styles (unset, 1.43rem, 900, unset, 0.02rem);
                             }
@@ -298,4 +111,30 @@ body {
             }
         }
     }
+}
+body .grid-armatupc .section-armatupc-4 {
+    @extend .section-armatupc-3;
+    @include display-grid-item ("1 / 5", "4 / 5", unset, unset);
+    article {
+        div {
+            @include width-height (50%, unset);
+        }
+    }
+}
+body .grid-armatupc .section-armatupc-5 {
+    @extend .section-armatupc-3;
+    @include display-grid-item ("1 / 5", "5 / 6", unset, unset);
+    article {
+        div {
+            @include width-height (50%, unset);
+        }
+    }
+}
+body .grid-armatupc .section-armatupc-7 {
+    @extend .section-armatupc-6;
+    @include display-grid-item ("1 / 5", "7 / 8", unset, unset);
+}
+body .grid-armatupc .section-armatupc-8 {
+    @extend .section-armatupc-6;
+    @include display-grid-item ("1 / 5", "8 / 9", unset, unset);
 }
