@@ -2,7 +2,7 @@
 body {
     .grid-armatupc {
         @include width-height (unset, 6500px);
-        @include display-grid-container (grid, 25% 25% 25% 25%, 7.5% 1.5% 17.5% 17.9% 17.9% 12.8% 12.8% 12.1%, unset);
+        @include display-grid-container (grid, 25% 25% 25% 25%, 7.5% 1.5% 17.5% 17.9% 17.7% 12.2% 12.8% 12.9%, unset);
         .section-armatupc-1 {
             @include display-grid-item ("1 / 5", "1 / 2", unset, unset);
             article {
@@ -46,7 +46,7 @@ body {
             }
         }
         .section-armatupc-3 {
-            @include display-grid-item ("1 / 5", "3 / 4", unset, unset);
+            @include display-grid-item ("1 / 5", "3 / 4", center, unset);
             @include width-height (unset, fit-content);
             @include borderadious-backcolor (30px, #bababa15);
             h2 {
@@ -80,7 +80,7 @@ body {
             }
         }
         .section-armatupc-6 {
-            @include display-grid-item ("1 / 5", "6 / 7", unset, unset);
+            @include display-grid-item ("1 / 5", "6 / 7", center, unset);
             @include borderadious-backcolor (30px, #bababa15);
             @include width-height (unset, fit-content);
             h2 {
@@ -114,7 +114,7 @@ body {
 }
 body .grid-armatupc .section-armatupc-4 {
     @extend .section-armatupc-3;
-    @include display-grid-item ("1 / 5", "4 / 5", unset, unset);
+    @include display-grid-item ("1 / 5", "4 / 5", center, unset);
     article {
         div {
             @include width-height (50%, unset);
@@ -123,7 +123,7 @@ body .grid-armatupc .section-armatupc-4 {
 }
 body .grid-armatupc .section-armatupc-5 {
     @extend .section-armatupc-3;
-    @include display-grid-item ("1 / 5", "5 / 6", unset, unset);
+    @include display-grid-item ("1 / 5", "5 / 6", center, unset);
     article {
         div {
             @include width-height (50%, unset);
@@ -132,9 +132,9 @@ body .grid-armatupc .section-armatupc-5 {
 }
 body .grid-armatupc .section-armatupc-7 {
     @extend .section-armatupc-6;
-    @include display-grid-item ("1 / 5", "7 / 8", unset, unset);
+    @include display-grid-item ("1 / 5", "7 / 8", center, unset);
 }
 body .grid-armatupc .section-armatupc-8 {
     @extend .section-armatupc-6;
-    @include display-grid-item ("1 / 5", "8 / 9", unset, unset);
+    @include display-grid-item ("1 / 5", "8 / 9", center, unset);
 }

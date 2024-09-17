@@ -15,5 +15,23 @@
                 }
             }
         }
+        .grid-armatupc {
+            @include width-height (unset, 6100px);
+            @include display-grid-container (grid, 25% 25% 25% 25%, 7% 1.5% 17.4% 17.8% 17.9% 12.7% 12.7% 13%, unset);
+            .section-armatupc-1 {
+                article {
+                    h1 {
+                        @include font-styles ("roboto", 2.375rem, 800, white, 0.1rem);
+                    }
+                    p {
+                        @include font-styles ("roboto", 1.3rem, 500, white, 0.02rem);
+                    }
+                    .paragraph-two {
+                        @include font-styles ("roboto", 1.275rem, 500, black, 0.01rem);
+                        @include margin-border-padding (0.1rem 0, 0, 1.5rem 2.6rem);
+                    }
+                }
+            }
+        }
     }
 }

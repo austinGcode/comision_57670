@@ -125,7 +125,7 @@ body .grid-armatupc {
   height: 6500px;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 7.5% 1.5% 17.5% 17.9% 17.9% 12.8% 12.8% 12.1%;
+  grid-template-rows: 7.5% 1.5% 17.5% 17.9% 17.7% 12.2% 12.8% 12.9%;
   grid-template-areas: unset; }
   body .grid-armatupc .section-armatupc-1 {
     grid-column: 1 / 5;
@@ -218,7 +218,7 @@ body .grid-armatupc {
   body .grid-armatupc .section-armatupc-3, body .grid-armatupc .section-armatupc-4, body .grid-armatupc .section-armatupc-5 {
     grid-column: 1 / 5;
     grid-row: 3 / 4;
-    align-self: unset;
+    align-self: center;
     justify-self: unset;
     width: unset;
     height: fit-content;
@@ -289,7 +289,7 @@ body .grid-armatupc {
   body .grid-armatupc .section-armatupc-6, body .grid-armatupc .section-armatupc-7, body .grid-armatupc .section-armatupc-8 {
     grid-column: 1 / 5;
     grid-row: 6 / 7;
-    align-self: unset;
+    align-self: center;
     justify-self: unset;
     border-radius: 30px;
     background-color: #bababa15;
@@ -343,7 +343,7 @@ body .grid-armatupc {
 body .grid-armatupc .section-armatupc-4 {
   grid-column: 1 / 5;
   grid-row: 4 / 5;
-  align-self: unset;
+  align-self: center;
   justify-self: unset; }
   body .grid-armatupc .section-armatupc-4 article div {
     width: 50%;
@@ -352,7 +352,7 @@ body .grid-armatupc .section-armatupc-4 {
 body .grid-armatupc .section-armatupc-5 {
   grid-column: 1 / 5;
   grid-row: 5 / 6;
-  align-self: unset;
+  align-self: center;
   justify-self: unset; }
   body .grid-armatupc .section-armatupc-5 article div {
     width: 50%;
@@ -361,13 +361,13 @@ body .grid-armatupc .section-armatupc-5 {
 body .grid-armatupc .section-armatupc-7 {
   grid-column: 1 / 5;
   grid-row: 7 / 8;
-  align-self: unset;
+  align-self: center;
   justify-self: unset; }
 
 body .grid-armatupc .section-armatupc-8 {
   grid-column: 1 / 5;
   grid-row: 8 / 9;
-  align-self: unset;
+  align-self: center;
   justify-self: unset; }
 
 body .grid-rendimiento {
@@ -462,38 +462,59 @@ body .grid-rendimiento {
         margin-bottom: 8%; }
 
 body .grid-componentes {
+  width: unset;
+  height: 3300px;
   display: grid;
-  width: 100%;
-  height: max-content;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 225px 750px 685px 685px 750px; }
+  grid-template-rows: 6% 25% 22% 22% 25%;
+  grid-template-areas: unset; }
   body .grid-componentes .section-componentes-1 {
     grid-column: 1 / 5;
-    grid-row: 1 / 2; }
+    grid-row: 1 / 2;
+    align-self: unset;
+    justify-self: unset; }
     body .grid-componentes .section-componentes-1 article {
       display: flex;
-      flex-flow: row wrap;
-      justify-content: center; }
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: unset;
+      align-content: unset;
+      row-gap: unset;
+      column-gap: unset;
+      contain: unset; }
       body .grid-componentes .section-componentes-1 article h1 {
         font-family: "roboto";
         font-size: 3rem;
         font-weight: 900;
         color: white;
-        margin-top: 2%; }
+        letter-spacing: unset;
+        margin: 3% 0 0 0;
+        border: unset;
+        padding: unset; }
       body .grid-componentes .section-componentes-1 article p {
-        padding: 4%;
         font-family: "roboto";
         font-size: 1.625rem;
         font-weight: 600;
         color: white;
-        text-align: center; }
+        letter-spacing: unset;
+        margin: unset;
+        border: unset;
+        padding: 3%;
+        text-align: center;
+        text-decoration: unset; }
   body .grid-componentes .section-componentes-2 {
     grid-column: 1 / 3;
     grid-row: 2 / 3;
-    margin: 0 10% 0 6%; }
+    align-self: center;
+    justify-self: unset;
+    margin: 0 10% 0 6%;
+    border: unset;
+    padding: unset; }
     body .grid-componentes .section-componentes-2 .componentes-cards-article-container {
       display: flex;
-      flex-flow: column nowrap;
+      flex-direction: column;
+      flex-wrap: nowrap;
       width: 100%;
       height: auto;
       border-radius: 30px;
@@ -502,22 +523,30 @@ body .grid-componentes {
         font-family: "roboto";
         font-size: 2rem;
         font-weight: 900;
-        text-align: center;
         color: white;
+        letter-spacing: unset;
         border-radius: 30px;
         background-color: #0A84FF;
-        padding: 3% 10%; }
+        margin: 0;
+        border: unset;
+        padding: 3% 10%;
+        text-align: center;
+        text-decoration: unset; }
       body .grid-componentes .section-componentes-2 .componentes-cards-article-container p {
         font-family: "roboto";
         font-size: 1.5rem;
         font-weight: 500;
+        color: black;
+        letter-spacing: unset;
+        margin: 0;
+        border: unset;
+        padding: 5%;
         text-align: center;
-        color: #000000;
-        padding: 5%; }
+        text-decoration: unset; }
       body .grid-componentes .section-componentes-2 .componentes-cards-article-container div {
-        flex: 1;
-        max-width: 100%;
-        height: auto; }
+        width: 100%;
+        height: auto;
+        flex: 1; }
         body .grid-componentes .section-componentes-2 .componentes-cards-article-container div img {
           width: 100%;
           height: auto;
@@ -526,10 +555,15 @@ body .grid-componentes {
   body .grid-componentes .section-componentes-3 {
     grid-column: 3 / 5;
     grid-row: 2 / 3;
-    margin: 0 6% 0 10%; }
+    align-self: center;
+    justify-self: unset;
+    margin: 0 6% 0 10%;
+    border: unset;
+    padding: unset; }
     body .grid-componentes .section-componentes-3 .componentes-cards-article-container {
       display: flex;
-      flex-flow: column nowrap;
+      flex-direction: column;
+      flex-wrap: nowrap;
       width: 100%;
       height: auto;
       border-radius: 30px;
@@ -538,21 +572,29 @@ body .grid-componentes {
         font-family: "roboto";
         font-size: 2rem;
         font-weight: 900;
-        text-align: center;
         color: white;
+        letter-spacing: unset;
+        margin: 0;
+        border: unset;
+        padding: 3% 10%;
         border-radius: 30px;
         background-color: #0A84FF;
-        padding: 3% 10%; }
+        text-align: center;
+        text-decoration: unset; }
       body .grid-componentes .section-componentes-3 .componentes-cards-article-container p {
         font-family: "roboto";
         font-size: 1.5rem;
         font-weight: 500;
+        color: black;
+        letter-spacing: unset;
+        margin: 0;
+        border: unset;
+        padding: 5%;
         text-align: center;
-        color: #000000;
-        padding: 5%; }
+        text-decoration: unset; }
       body .grid-componentes .section-componentes-3 .componentes-cards-article-container div {
         flex: 1;
-        max-width: 100%;
+        width: 100%;
         height: auto; }
         body .grid-componentes .section-componentes-3 .componentes-cards-article-container div img {
           width: 100%;
@@ -562,10 +604,15 @@ body .grid-componentes {
   body .grid-componentes .section-componentes-4 {
     grid-column: 1 / 3;
     grid-row: 3 / 4;
-    margin: 0 10% 0 6%; }
+    align-self: center;
+    justify-self: unset;
+    margin: 0 10% 0 6%;
+    border: unset;
+    padding: unset; }
     body .grid-componentes .section-componentes-4 .componentes-cards-article-container {
       display: flex;
-      flex-flow: column nowrap;
+      flex-direction: column;
+      flex-wrap: nowrap;
       width: 100%;
       height: auto;
       border-radius: 30px;
@@ -574,21 +621,29 @@ body .grid-componentes {
         font-family: "roboto";
         font-size: 2rem;
         font-weight: 900;
-        text-align: center;
         color: white;
+        letter-spacing: unset;
         border-radius: 30px;
         background-color: #0A84FF;
-        padding: 3% 10%; }
+        margin: 0;
+        border: unset;
+        padding: 3% 10%;
+        text-align: center;
+        text-decoration: unset; }
       body .grid-componentes .section-componentes-4 .componentes-cards-article-container p {
         font-family: "roboto";
         font-size: 1.5rem;
         font-weight: 500;
+        color: black;
+        letter-spacing: unset;
         text-align: center;
-        color: #000000;
+        text-decoration: unset;
+        margin: 0;
+        border: unset;
         padding: 5%; }
       body .grid-componentes .section-componentes-4 .componentes-cards-article-container div {
         flex: 1;
-        max-width: 100%;
+        width: 100%;
         height: auto; }
         body .grid-componentes .section-componentes-4 .componentes-cards-article-container div img {
           width: 100%;
@@ -598,10 +653,15 @@ body .grid-componentes {
   body .grid-componentes .section-componentes-5 {
     grid-column: 3 / 5;
     grid-row: 3 / 4;
-    margin: 0 6% 0 10%; }
+    align-self: center;
+    justify-self: unset;
+    margin: 0 6% 0 10%;
+    border: unset;
+    padding: unset; }
     body .grid-componentes .section-componentes-5 .componentes-cards-article-container {
       display: flex;
-      flex-flow: column nowrap;
+      flex-direction: column;
+      flex-wrap: nowrap;
       width: 100%;
       height: auto;
       border-radius: 30px;
@@ -610,21 +670,29 @@ body .grid-componentes {
         font-family: "roboto";
         font-size: 2rem;
         font-weight: 900;
-        text-align: center;
         color: white;
+        letter-spacing: unset;
         border-radius: 30px;
         background-color: #0A84FF;
-        padding: 3% 10%; }
+        margin: 0;
+        border: unset;
+        padding: 3% 10%;
+        text-align: center;
+        text-decoration: unset; }
       body .grid-componentes .section-componentes-5 .componentes-cards-article-container p {
         font-family: "roboto";
         font-size: 1.5rem;
         font-weight: 500;
+        color: black;
+        letter-spacing: unset;
         text-align: center;
-        color: #000000;
+        text-decoration: unset;
+        margin: 0;
+        border: unset;
         padding: 5%; }
       body .grid-componentes .section-componentes-5 .componentes-cards-article-container div {
         flex: 1;
-        max-width: 100%;
+        width: 100%;
         height: auto; }
         body .grid-componentes .section-componentes-5 .componentes-cards-article-container div img {
           width: 100%;
@@ -634,10 +702,15 @@ body .grid-componentes {
   body .grid-componentes .section-componentes-6 {
     grid-column: 1 / 3;
     grid-row: 4 / 5;
-    margin: 0 10% 0 6%; }
+    align-self: center;
+    justify-self: unset;
+    margin: 0 10% 0 6%;
+    border: unset;
+    padding: unset; }
     body .grid-componentes .section-componentes-6 .componentes-cards-article-container {
       display: flex;
-      flex-flow: column nowrap;
+      flex-direction: column;
+      flex-wrap: nowrap;
       width: 100%;
       height: auto;
       border-radius: 30px;
@@ -646,21 +719,29 @@ body .grid-componentes {
         font-family: "roboto";
         font-size: 2rem;
         font-weight: 900;
-        text-align: center;
         color: white;
+        letter-spacing: unset;
         border-radius: 30px;
         background-color: #0A84FF;
-        padding: 3% 10%; }
+        margin: 0;
+        border: unset;
+        padding: 3% 10%;
+        text-align: center;
+        text-decoration: unset; }
       body .grid-componentes .section-componentes-6 .componentes-cards-article-container p {
         font-family: "roboto";
         font-size: 1.5rem;
         font-weight: 500;
+        color: black;
+        letter-spacing: unset;
         text-align: center;
-        color: #000000;
+        text-decoration: unset;
+        margin: 0;
+        border: unset;
         padding: 5%; }
       body .grid-componentes .section-componentes-6 .componentes-cards-article-container div {
         flex: 1;
-        max-width: 100%;
+        width: 100%;
         height: auto; }
         body .grid-componentes .section-componentes-6 .componentes-cards-article-container div img {
           width: 100%;
@@ -670,10 +751,15 @@ body .grid-componentes {
   body .grid-componentes .section-componentes-7 {
     grid-column: 3 / 5;
     grid-row: 4 / 5;
-    margin: 0 6% 0 10%; }
+    align-self: center;
+    justify-self: unset;
+    margin: 0 6% 0 10%;
+    border: unset;
+    padding: unset; }
     body .grid-componentes .section-componentes-7 .componentes-cards-article-container {
       display: flex;
-      flex-flow: column nowrap;
+      flex-direction: column;
+      flex-wrap: nowrap;
       width: 100%;
       height: auto;
       border-radius: 30px;
@@ -682,21 +768,29 @@ body .grid-componentes {
         font-family: "roboto";
         font-size: 2rem;
         font-weight: 900;
-        text-align: center;
         color: white;
+        letter-spacing: unset;
         border-radius: 30px;
         background-color: #0A84FF;
-        padding: 3% 10%; }
+        margin: 0;
+        border: unset;
+        padding: 3% 10%;
+        text-align: center;
+        text-decoration: unset; }
       body .grid-componentes .section-componentes-7 .componentes-cards-article-container p {
         font-family: "roboto";
         font-size: 1.5rem;
         font-weight: 500;
+        color: black;
+        letter-spacing: unset;
         text-align: center;
-        color: #000000;
+        text-decoration: unset;
+        margin: 0;
+        border: unset;
         padding: 5%; }
       body .grid-componentes .section-componentes-7 .componentes-cards-article-container div {
         flex: 1;
-        max-width: 100%;
+        width: 100%;
         height: auto; }
         body .grid-componentes .section-componentes-7 .componentes-cards-article-container div img {
           width: 100%;
@@ -704,28 +798,40 @@ body .grid-componentes {
           object-fit: contain;
           vertical-align: bottom; }
   body .grid-componentes .section-componentes-8 {
-    grid-column: 1 / 5;
+    grid-column: 1 / 3;
     grid-row: 5 / 6;
-    margin: 0 55% 0 3%; }
+    align-self: center;
+    justify-self: unset;
+    margin: 0 10% 0 6%;
+    border: unset;
+    padding: unset; }
     body .grid-componentes .section-componentes-8 .section-8 {
       border-radius: 30px;
       background-color: #bababa; }
       body .grid-componentes .section-componentes-8 .section-8 h2 {
-        text-align: center;
         font-family: "roboto";
         font-size: 2rem;
         font-weight: 900;
         color: white;
+        letter-spacing: unset;
         border-radius: 30px;
         background-color: #0A84FF;
-        padding: 3% 10%; }
-      body .grid-componentes .section-componentes-8 .section-8 p {
+        margin: 0;
+        border: unset;
+        padding: 3% 10%;
         text-align: center;
+        text-decoration: unset; }
+      body .grid-componentes .section-componentes-8 .section-8 p {
         font-family: "roboto";
         font-size: 1.5rem;
         font-weight: 500;
-        color: #000000;
-        padding: 4%; }
+        color: black;
+        letter-spacing: unset;
+        text-align: center;
+        text-decoration: unset;
+        margin: 0;
+        border: unset;
+        padding: 5%; }
       body .grid-componentes .section-componentes-8 .section-8 div img {
         width: 100%;
         vertical-align: bottom; }
@@ -900,6 +1006,19 @@ body .desktop-no .privacy-responsive-one {
   color: black;
   padding: 15px 10px; }
 
+@media (max-width: 1326px) {
+  body .grid-armatupc {
+    width: unset;
+    height: 6800px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7.5% 1.3% 17.5% 18.1% 18% 12.6% 12.6% 12.4%;
+    grid-template-areas: unset; }
+    body .grid-armatupc .section-armatupc-2 ul li {
+      margin: unset;
+      border: unset;
+      padding: 0.6% 1.3%; } }
+
 @media (max-width: 1294px) {
   body .grid-inicio .section-1 h1 {
     font-size: 2.4rem;
@@ -907,7 +1026,48 @@ body .desktop-no .privacy-responsive-one {
   body .grid-inicio .section-1 article p {
     font-size: 1.6rem; }
   body .grid-inicio .section-1 button {
-    font-size: 1.37rem; } }
+    font-size: 1.37rem; }
+  body .grid-armatupc {
+    width: unset;
+    height: 7000px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7% 1.3% 17.5% 17.9% 17.8% 12.8% 12.8% 12.8%;
+    grid-template-areas: unset; }
+    body .grid-armatupc .section-armatupc-1 article h1 {
+      font-family: "roboto";
+      font-size: 2.8rem;
+      font-weight: 900;
+      color: white;
+      letter-spacing: 0.1rem; }
+    body .grid-armatupc .section-armatupc-1 article p {
+      font-family: "roboto";
+      font-size: 1.6rem;
+      font-weight: 500;
+      color: white;
+      letter-spacing: 0.03rem; }
+    body .grid-armatupc .section-armatupc-1 article .paragraph-two {
+      font-family: "roboto";
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: black;
+      letter-spacing: 0.02rem;
+      margin: 0.1rem 0;
+      border: 0;
+      padding: 1.6rem 3rem; }
+    body .grid-armatupc .section-armatupc-2 ul {
+      line-height: 1.5rem;
+      list-style: none; }
+      body .grid-armatupc .section-armatupc-2 ul li {
+        margin: unset;
+        border: unset;
+        padding: 0.5% 1.2%; }
+        body .grid-armatupc .section-armatupc-2 ul li a {
+          font-family: "roboto mono";
+          font-size: 1.2rem;
+          font-weight: 400;
+          color: white;
+          letter-spacing: 0.1rem; } }
 
 @media (max-width: 1132px) {
   body .grid-inicio .section-1 h1 {
@@ -915,7 +1075,14 @@ body .desktop-no .privacy-responsive-one {
   body .grid-inicio .section-1 article p {
     font-size: 1.5rem; }
   body .grid-inicio .section-1 button {
-    font-size: 1.25rem; } }
+    font-size: 1.25rem; }
+  body .grid-armatupc {
+    width: unset;
+    height: 7200px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7% 1.3% 17.6% 18.1% 18.4% 12.5% 12.4% 12.7%;
+    grid-template-areas: unset; } }
 
 @media (max-width: 1029px) {
   body {
@@ -1085,7 +1252,35 @@ body .desktop-no .privacy-responsive-one {
   body .grid-inicio .section-1 article p {
     font-size: 1.375rem; }
   body .grid-inicio .section-1 button {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  body .grid-armatupc {
+    width: unset;
+    height: 6100px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7% 1.5% 17.4% 17.8% 17.9% 12.7% 12.7% 13%;
+    grid-template-areas: unset; }
+    body .grid-armatupc .section-armatupc-1 article h1 {
+      font-family: "roboto";
+      font-size: 2.375rem;
+      font-weight: 800;
+      color: white;
+      letter-spacing: 0.1rem; }
+    body .grid-armatupc .section-armatupc-1 article p {
+      font-family: "roboto";
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: white;
+      letter-spacing: 0.02rem; }
+    body .grid-armatupc .section-armatupc-1 article .paragraph-two {
+      font-family: "roboto";
+      font-size: 1.275rem;
+      font-weight: 500;
+      color: black;
+      letter-spacing: 0.01rem;
+      margin: 0.1rem 0;
+      border: 0;
+      padding: 1.5rem 2.6rem; } }
 
 @media (max-width: 805px) {
   body .grid-inicio .section-1 h1 {
