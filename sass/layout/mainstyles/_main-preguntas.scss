@@ -8,8 +8,7 @@ body {
             grid-column: 1 / 6;
             grid-row: 1 / 2;
             article {
-                display: flex;
-                flex-flow: column nowrap;
+                @include display-flexbox-container (flex, column, nowrap);
                 align-items: center;
                 h1 {
                     font-family: "roboto";

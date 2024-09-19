@@ -11,14 +11,12 @@
             flex-wrap: nowrap;
             .delete-this-responsive {
                 display: none;
-                /* long navbar, no burger */
             }
         }
         .desktop-no {
             .burger-no {
                 display: unset;
                 margin-right: 5%;
-                /* bootstrap */
             }
         }
         .grid-inicio {

@@ -15,5 +15,126 @@
                 }
             }
         }
+        .grid-armatupc {
+            @include width-height (unset, 5800px);
+            @include display-grid-container (grid, 25% 25% 25% 25%, 7.2% 2.3% 17.4% 18.2% 18.1% 12% 12.1% 12.7%, unset);
+            .section-armatupc-1 {
+                article {
+                    h1 {
+                        @include font-styles ("roboto", 2rem, 800, white, 0.1rem);
+                    }
+                    p {
+                        @include font-styles ("roboto", 1.2rem, 500, white, 0.02rem);
+                    }
+                    .paragraph-two {
+                        @include font-styles ("roboto", 1.15rem, 500, black, 0.01rem);
+                        @include margin-border-padding (0.1rem 0, 0, 1.5rem 2.2rem);
+                    }
+                }
+            }
+            .section-armatupc-2 {
+                @include display-grid-item ("1 / 5", "2 / 3", unset, unset);
+                ul {
+                    @include display-grid-container (grid, 33% 33% 33%, 50% 50%, unset);
+                    .requisitoscs2 {
+                        @include display-grid-item ("1 / 2", "1 / 2", center, unset);
+                        @include margin-border-padding (5% 0, unset, 0.5% 1.5%);
+                        a {
+                            @include font-styles ("roboto mono", .875rem, 400, white, 0.1rem);
+                        }
+                    }
+                    .requisitoslol {
+                        @include display-grid-item ("2 / 3", "1 / 2", center, unset);
+                        @include margin-border-padding (unset, unset, 0.5% 1.5%);
+                        a {
+                            @include font-styles ("roboto mono", .875rem, 400, white, 0.1rem);
+                        }
+                    }
+                    .requisitoselden {
+                        @include display-grid-item ("3 / 4", "1 / 2", center, unset);
+                        a {
+                            @include font-styles ("roboto mono", .875rem, 400, white, 0.1rem);
+                        }
+                    }
+                    .requisitosdavincir19 {
+                        @include display-grid-item ("1 / 2", "2 / 3", center, unset);
+                        a {
+                            @include font-styles ("roboto mono", .875rem, 400, white, 0.1rem);
+                        }
+                    }
+                    .requisitosblender {
+                        @include display-grid-item ("2 / 3", "2 / 3", center, unset);
+                        a {
+                            @include font-styles ("roboto mono", .875rem, 400, white, 0.1rem);
+                        }
+                    }
+                    .requisitosadobepp {
+                        @include display-grid-item ("3 / 4", "2 / 3", center, unset);
+                        a {
+                            @include font-styles ("roboto mono", .875rem, 400, white, 0.1rem);
+                        }
+                    }
+                }
+                ul {
+                    li {
+                        a {
+                            @include font-styles ("roboto mono", .875rem, 400, white, 0.1rem);
+                        }
+                    }
+                }
+            }
+            .section-armatupc-3 {
+                h2 {
+                    @include font-styles ("roboto mono", 1.4rem, 400, white, 0.5rem);
+                }
+                article {
+                    div {
+                        h3 {
+                            @include font-styles ("roboto", 1.15rem, 800, #409fff, 0.03rem);
+                        }
+                        ul {
+                            li {
+                                @include font-styles ("roboto", 1rem, 500, white, 0.01rem);
+                                span {
+                                    @include font-styles (unset, .875rem, 800, unset, 0.02rem);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .section-armatupc-6 {
+                h2 {
+                    @include font-styles ("roboto mono", 1.4rem, 400, white, 0.5rem);
+                }
+                article {
+                    div {
+                        h3 {
+                            @include font-styles ("roboto", 1.15rem, 800, #409fff, 0.03rem);
+                        }
+                        ul {
+                            li {
+                                @include font-styles ("roboto", 1rem, 500, white, 0.01rem);
+                                span {
+                                    @include font-styles (unset, .875rem, 800, unset, 0.02rem);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
+}
+.section-armatupc-4 {
+    @extend .section-armatupc-3;
+}
+.section-armatupc-5 {
+    @extend .section-armatupc-3;
+}
+.section-armatupc-7 {
+    @extend .section-armatupc-6;
+}
+.section-armatupc-8 {
+    @extend .section-armatupc-6;
 }
