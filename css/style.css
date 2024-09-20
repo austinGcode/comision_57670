@@ -1576,6 +1576,173 @@ body .desktop-no .privacy-responsive-one {
             width: 100%;
             height: auto;
             display: block; }
+    body .grid-armatupc {
+      width: unset;
+      height: 6000px;
+      display: grid;
+      grid-template-columns: 25% 25% 25% 25%;
+      grid-template-rows: 7.2% 2.3% 17.4% 18.2% 18.1% 12% 12.1% 12.7%;
+      grid-template-areas: unset; }
+      body .grid-armatupc .section-armatupc-1 article h1 {
+        font-family: "roboto";
+        font-size: 2rem;
+        font-weight: 800;
+        color: white;
+        letter-spacing: 0.1rem; }
+      body .grid-armatupc .section-armatupc-1 article p {
+        font-family: "roboto";
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: white;
+        letter-spacing: 0.02rem;
+        margin: 0.4rem 0;
+        border: 0;
+        padding: 0.1rem 2rem; }
+      body .grid-armatupc .section-armatupc-1 article .paragraph-two {
+        font-family: "roboto";
+        font-size: 1.15rem;
+        font-weight: 500;
+        color: black;
+        letter-spacing: 0.01rem;
+        margin: 0.1rem 0;
+        border: 0;
+        padding: 1.5rem 1.4rem; }
+      body .grid-armatupc .section-armatupc-2 {
+        grid-column: 1 / 5;
+        grid-row: 2 / 3;
+        align-self: unset;
+        justify-self: unset; }
+        body .grid-armatupc .section-armatupc-2 ul {
+          display: grid;
+          grid-template-columns: 33% 33% 33%;
+          grid-template-rows: 50% 50%;
+          grid-template-areas: unset; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitoscs2 {
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+            align-self: center;
+            justify-self: unset;
+            margin: 5% 0;
+            border: unset;
+            padding: 0.5% 1.5%; }
+            body .grid-armatupc .section-armatupc-2 ul .requisitoscs2 a {
+              font-family: "roboto mono";
+              font-size: 0.875rem;
+              font-weight: 400;
+              color: white;
+              letter-spacing: 0.1rem; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitoslol {
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+            align-self: center;
+            justify-self: unset;
+            margin: unset;
+            border: unset;
+            padding: 0.5% 1.5%; }
+            body .grid-armatupc .section-armatupc-2 ul .requisitoslol a {
+              font-family: "roboto mono";
+              font-size: 0.875rem;
+              font-weight: 400;
+              color: white;
+              letter-spacing: 0.1rem; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitoselden {
+            grid-column: 3 / 4;
+            grid-row: 1 / 2;
+            align-self: center;
+            justify-self: unset; }
+            body .grid-armatupc .section-armatupc-2 ul .requisitoselden a {
+              font-family: "roboto mono";
+              font-size: 0.875rem;
+              font-weight: 400;
+              color: white;
+              letter-spacing: 0.1rem; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitosdavincir19 {
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
+            align-self: center;
+            justify-self: unset; }
+            body .grid-armatupc .section-armatupc-2 ul .requisitosdavincir19 a {
+              font-family: "roboto mono";
+              font-size: 0.875rem;
+              font-weight: 400;
+              color: white;
+              letter-spacing: 0.1rem; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitosblender {
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+            align-self: center;
+            justify-self: unset; }
+            body .grid-armatupc .section-armatupc-2 ul .requisitosblender a {
+              font-family: "roboto mono";
+              font-size: 0.875rem;
+              font-weight: 400;
+              color: white;
+              letter-spacing: 0.1rem; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitosadobepp {
+            grid-column: 3 / 4;
+            grid-row: 2 / 3;
+            align-self: center;
+            justify-self: unset; }
+            body .grid-armatupc .section-armatupc-2 ul .requisitosadobepp a {
+              font-family: "roboto mono";
+              font-size: 0.875rem;
+              font-weight: 400;
+              color: white;
+              letter-spacing: 0.1rem; }
+        body .grid-armatupc .section-armatupc-2 ul li a {
+          font-family: "roboto mono";
+          font-size: 0.875rem;
+          font-weight: 400;
+          color: white;
+          letter-spacing: 0.1rem; }
+      body .grid-armatupc .section-armatupc-3 h2, body .grid-armatupc .section-armatupc-4 h2, body .grid-armatupc .section-armatupc-5 h2 {
+        font-family: "roboto mono";
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: white;
+        letter-spacing: 0.5rem; }
+      body .grid-armatupc .section-armatupc-3 article div h3, body .grid-armatupc .section-armatupc-4 article div h3, body .grid-armatupc .section-armatupc-5 article div h3 {
+        font-family: "roboto";
+        font-size: 1.15rem;
+        font-weight: 800;
+        color: #409fff;
+        letter-spacing: 0.03rem; }
+      body .grid-armatupc .section-armatupc-3 article div ul li, body .grid-armatupc .section-armatupc-4 article div ul li, body .grid-armatupc .section-armatupc-5 article div ul li {
+        font-family: "roboto";
+        font-size: 1rem;
+        font-weight: 500;
+        color: white;
+        letter-spacing: 0.01rem; }
+        body .grid-armatupc .section-armatupc-3 article div ul li span, body .grid-armatupc .section-armatupc-4 article div ul li span, body .grid-armatupc .section-armatupc-5 article div ul li span {
+          font-family: unset;
+          font-size: 0.875rem;
+          font-weight: 800;
+          color: unset;
+          letter-spacing: 0.02rem; }
+      body .grid-armatupc .section-armatupc-6 h2, body .grid-armatupc .section-armatupc-7 h2, body .grid-armatupc .section-armatupc-8 h2 {
+        font-family: "roboto mono";
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: white;
+        letter-spacing: 0.5rem; }
+      body .grid-armatupc .section-armatupc-6 article div h3, body .grid-armatupc .section-armatupc-7 article div h3, body .grid-armatupc .section-armatupc-8 article div h3 {
+        font-family: "roboto";
+        font-size: 1.15rem;
+        font-weight: 800;
+        color: #409fff;
+        letter-spacing: 0.03rem; }
+      body .grid-armatupc .section-armatupc-6 article div ul li, body .grid-armatupc .section-armatupc-7 article div ul li, body .grid-armatupc .section-armatupc-8 article div ul li {
+        font-family: "roboto";
+        font-size: 1rem;
+        font-weight: 500;
+        color: white;
+        letter-spacing: 0.01rem; }
+        body .grid-armatupc .section-armatupc-6 article div ul li span, body .grid-armatupc .section-armatupc-7 article div ul li span, body .grid-armatupc .section-armatupc-8 article div ul li span {
+          font-family: unset;
+          font-size: 0.875rem;
+          font-weight: 800;
+          color: unset;
+          letter-spacing: 0.02rem; }
     body footer div .ul-footer {
       padding: unset; } }
 
@@ -1660,9 +1827,505 @@ body .desktop-no .privacy-responsive-one {
         font-weight: 400;
         color: #999999; } }
 
-@media (max-width: 990px) {
+@media (max-width: 450px) {
   body header div a {
     margin-left: 15%; } }
+
+@media (max-width: 425px) {
+  body .grid-armatupc {
+    width: unset;
+    height: 7300px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 6% 1.7% 19.1% 19.1% 19.1% 11.6% 11.6% 11.6%;
+    grid-template-areas: unset; }
+    body .grid-armatupc .section-armatupc-1 article h1 {
+      font-family: "roboto";
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: white;
+      letter-spacing: 0.1rem; }
+    body .grid-armatupc .section-armatupc-1 article p {
+      font-family: "roboto";
+      font-size: 1rem;
+      font-weight: 500;
+      color: white;
+      letter-spacing: 0.01rem;
+      margin: 0.2rem 0;
+      border: 0;
+      padding: 0.1rem 1.5rem; }
+    body .grid-armatupc .section-armatupc-1 article .paragraph-two {
+      font-family: "roboto";
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: black;
+      letter-spacing: 0.01rem;
+      margin: 0.1rem 0;
+      border: 0;
+      padding: 0.5rem 0.8rem; }
+    body .grid-armatupc .section-armatupc-2 {
+      grid-column: 1 / 5;
+      grid-row: 2 / 3;
+      align-self: unset;
+      justify-self: unset; }
+      body .grid-armatupc .section-armatupc-2 ul {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 50% 50%;
+        grid-template-areas: unset; }
+        body .grid-armatupc .section-armatupc-2 ul .requisitoscs2 {
+          grid-column: 1 / 2;
+          grid-row: 1 / 2;
+          align-self: center;
+          justify-self: unset;
+          margin: 5% 0;
+          border: unset;
+          padding: 0.5% 1.5%; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitoscs2 a {
+            font-family: "roboto mono";
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: white;
+            letter-spacing: 0.1rem; }
+        body .grid-armatupc .section-armatupc-2 ul .requisitoslol {
+          grid-column: 2 / 3;
+          grid-row: 1 / 2;
+          align-self: center;
+          justify-self: unset;
+          margin: unset;
+          border: unset;
+          padding: 0.5% 1.5%; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitoslol a {
+            font-family: "roboto mono";
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: white;
+            letter-spacing: 0.1rem; }
+        body .grid-armatupc .section-armatupc-2 ul .requisitoselden {
+          grid-column: 3 / 4;
+          grid-row: 1 / 2;
+          align-self: center;
+          justify-self: unset; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitoselden a {
+            font-family: "roboto mono";
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: white;
+            letter-spacing: 0.1rem; }
+        body .grid-armatupc .section-armatupc-2 ul .requisitosdavincir19 {
+          grid-column: 1 / 2;
+          grid-row: 2 / 3;
+          align-self: center;
+          justify-self: unset; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitosdavincir19 a {
+            font-family: "roboto mono";
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: white;
+            letter-spacing: 0.1rem; }
+        body .grid-armatupc .section-armatupc-2 ul .requisitosblender {
+          grid-column: 2 / 3;
+          grid-row: 2 / 3;
+          align-self: center;
+          justify-self: unset; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitosblender a {
+            font-family: "roboto mono";
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: white;
+            letter-spacing: 0.1rem; }
+        body .grid-armatupc .section-armatupc-2 ul .requisitosadobepp {
+          grid-column: 3 / 4;
+          grid-row: 2 / 3;
+          align-self: center;
+          justify-self: unset; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitosadobepp a {
+            font-family: "roboto mono";
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: white;
+            letter-spacing: 0.1rem; }
+      body .grid-armatupc .section-armatupc-2 ul li a {
+        font-family: "roboto mono";
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: white;
+        letter-spacing: 0.1rem; }
+    body .grid-armatupc .section-armatupc-3, body .grid-armatupc .section-armatupc-4, body .grid-armatupc .section-armatupc-5 {
+      width: unset;
+      height: unset; }
+      body .grid-armatupc .section-armatupc-3 h2, body .grid-armatupc .section-armatupc-4 h2, body .grid-armatupc .section-armatupc-5 h2 {
+        font-family: "roboto mono";
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: white;
+        letter-spacing: 0.5rem; }
+      body .grid-armatupc .section-armatupc-3 article, body .grid-armatupc .section-armatupc-4 article, body .grid-armatupc .section-armatupc-5 article {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 47% 53%;
+        grid-template-areas: unset;
+        gap: unset;
+        align-items: unset;
+        justify-items: unset;
+        align-content: unset;
+        justify-content: unset; }
+        body .grid-armatupc .section-armatupc-3 article .div-cs2-minimos, body .grid-armatupc .section-armatupc-4 article .div-cs2-minimos, body .grid-armatupc .section-armatupc-5 article .div-cs2-minimos {
+          grid-column: 1 / 2;
+          grid-row: 1 / 2;
+          align-self: unset;
+          justify-self: unset;
+          display: unset;
+          flex-direction: unset;
+          flex-wrap: unset;
+          justify-content: unset;
+          align-items: unset;
+          align-content: unset;
+          row-gap: unset;
+          column-gap: unset;
+          contain: unset;
+          border-radius: 30px;
+          background-color: #bababa21;
+          margin: unset;
+          border: unset;
+          padding: 0 0 5% 0;
+          width: unset;
+          height: unset; }
+          body .grid-armatupc .section-armatupc-3 article .div-cs2-minimos h3, body .grid-armatupc .section-armatupc-4 article .div-cs2-minimos h3, body .grid-armatupc .section-armatupc-5 article .div-cs2-minimos h3 {
+            font-family: "roboto";
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #409fff;
+            letter-spacing: 0.03rem;
+            margin: 2.5% 0;
+            border: unset;
+            padding: unset;
+            text-align: center; }
+          body .grid-armatupc .section-armatupc-3 article .div-cs2-minimos ul, body .grid-armatupc .section-armatupc-4 article .div-cs2-minimos ul, body .grid-armatupc .section-armatupc-5 article .div-cs2-minimos ul {
+            line-height: unset;
+            list-style: none;
+            margin: 0 8%;
+            border: unset;
+            padding: unset; }
+            body .grid-armatupc .section-armatupc-3 article .div-cs2-minimos ul li, body .grid-armatupc .section-armatupc-4 article .div-cs2-minimos ul li, body .grid-armatupc .section-armatupc-5 article .div-cs2-minimos ul li {
+              font-family: "roboto";
+              font-size: 0.875rem;
+              font-weight: 500;
+              color: white;
+              letter-spacing: 0.01rem; }
+              body .grid-armatupc .section-armatupc-3 article .div-cs2-minimos ul li span, body .grid-armatupc .section-armatupc-4 article .div-cs2-minimos ul li span, body .grid-armatupc .section-armatupc-5 article .div-cs2-minimos ul li span {
+                font-family: unset;
+                font-size: 1rem;
+                font-weight: 800;
+                color: unset;
+                letter-spacing: 0.02rem; }
+        body .grid-armatupc .section-armatupc-3 article .div-cs2-recomendados, body .grid-armatupc .section-armatupc-4 article .div-cs2-recomendados, body .grid-armatupc .section-armatupc-5 article .div-cs2-recomendados {
+          grid-column: 1 / 2;
+          grid-row: 2 / 3;
+          align-self: unset;
+          justify-self: unset;
+          display: unset;
+          flex-direction: unset;
+          flex-wrap: unset;
+          justify-content: unset;
+          align-items: unset;
+          align-content: unset;
+          row-gap: unset;
+          column-gap: unset;
+          contain: unset;
+          border-radius: 30px;
+          background-color: #bababa21;
+          margin: 5% 0 0 0;
+          border: unset;
+          padding: 0 0 5% 0;
+          width: unset;
+          height: unset; }
+          body .grid-armatupc .section-armatupc-3 article .div-cs2-recomendados h3, body .grid-armatupc .section-armatupc-4 article .div-cs2-recomendados h3, body .grid-armatupc .section-armatupc-5 article .div-cs2-recomendados h3 {
+            font-family: "roboto";
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #409fff;
+            letter-spacing: 0.03rem;
+            margin: 2.5% 0;
+            border: unset;
+            padding: unset;
+            text-align: center; }
+          body .grid-armatupc .section-armatupc-3 article .div-cs2-recomendados ul, body .grid-armatupc .section-armatupc-4 article .div-cs2-recomendados ul, body .grid-armatupc .section-armatupc-5 article .div-cs2-recomendados ul {
+            line-height: unset;
+            list-style: none;
+            margin: 0 10%;
+            border: unset;
+            padding: unset; }
+            body .grid-armatupc .section-armatupc-3 article .div-cs2-recomendados ul li, body .grid-armatupc .section-armatupc-4 article .div-cs2-recomendados ul li, body .grid-armatupc .section-armatupc-5 article .div-cs2-recomendados ul li {
+              font-family: "roboto";
+              font-size: 0.875rem;
+              font-weight: 500;
+              color: white;
+              letter-spacing: 0.01rem; }
+              body .grid-armatupc .section-armatupc-3 article .div-cs2-recomendados ul li span, body .grid-armatupc .section-armatupc-4 article .div-cs2-recomendados ul li span, body .grid-armatupc .section-armatupc-5 article .div-cs2-recomendados ul li span {
+                font-family: unset;
+                font-size: 1rem;
+                font-weight: 800;
+                color: unset;
+                letter-spacing: 0.02rem; }
+    body .grid-armatupc .section-armatupc-4 {
+      width: unset;
+      height: unset; }
+      body .grid-armatupc .section-armatupc-4 h2 {
+        font-family: "roboto mono";
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: white;
+        letter-spacing: 0.5rem; }
+      body .grid-armatupc .section-armatupc-4 article {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 47% 53%;
+        grid-template-areas: unset;
+        gap: unset;
+        align-items: unset;
+        justify-items: unset;
+        align-content: unset;
+        justify-content: unset; }
+        body .grid-armatupc .section-armatupc-4 article .div-lol-minimos {
+          grid-column: 1 / 2;
+          grid-row: 1 / 2;
+          align-self: unset;
+          justify-self: unset;
+          display: unset;
+          flex-direction: unset;
+          flex-wrap: unset;
+          justify-content: unset;
+          align-items: unset;
+          align-content: unset;
+          row-gap: unset;
+          column-gap: unset;
+          contain: unset;
+          border-radius: 30px;
+          background-color: #bababa21;
+          margin: unset;
+          border: unset;
+          padding: 0 0 5% 0;
+          width: unset;
+          height: unset; }
+          body .grid-armatupc .section-armatupc-4 article .div-lol-minimos h3 {
+            font-family: "roboto";
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #409fff;
+            letter-spacing: 0.03rem;
+            margin: 2.5% 0;
+            border: unset;
+            padding: unset;
+            text-align: center; }
+          body .grid-armatupc .section-armatupc-4 article .div-lol-minimos ul {
+            line-height: unset;
+            list-style: none;
+            margin: 0 8%;
+            border: unset;
+            padding: unset; }
+            body .grid-armatupc .section-armatupc-4 article .div-lol-minimos ul li {
+              font-family: "roboto";
+              font-size: 0.875rem;
+              font-weight: 500;
+              color: white;
+              letter-spacing: 0.01rem; }
+              body .grid-armatupc .section-armatupc-4 article .div-lol-minimos ul li span {
+                font-family: unset;
+                font-size: 1rem;
+                font-weight: 800;
+                color: unset;
+                letter-spacing: 0.02rem; }
+        body .grid-armatupc .section-armatupc-4 article .div-lol-recomendados {
+          grid-column: 1 / 2;
+          grid-row: 2 / 3;
+          align-self: unset;
+          justify-self: unset;
+          display: unset;
+          flex-direction: unset;
+          flex-wrap: unset;
+          justify-content: unset;
+          align-items: unset;
+          align-content: unset;
+          row-gap: unset;
+          column-gap: unset;
+          contain: unset;
+          border-radius: 30px;
+          background-color: #bababa21;
+          margin: 5% 0 0 0;
+          border: unset;
+          padding: 0 0 5% 0;
+          width: unset;
+          height: unset; }
+          body .grid-armatupc .section-armatupc-4 article .div-lol-recomendados h3 {
+            font-family: "roboto";
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #409fff;
+            letter-spacing: 0.03rem;
+            margin: 2.5% 0;
+            border: unset;
+            padding: unset;
+            text-align: center; }
+          body .grid-armatupc .section-armatupc-4 article .div-lol-recomendados ul {
+            line-height: unset;
+            list-style: none;
+            margin: 0 10%;
+            border: unset;
+            padding: unset; }
+            body .grid-armatupc .section-armatupc-4 article .div-lol-recomendados ul li {
+              font-family: "roboto";
+              font-size: 0.875rem;
+              font-weight: 500;
+              color: white;
+              letter-spacing: 0.01rem; }
+              body .grid-armatupc .section-armatupc-4 article .div-lol-recomendados ul li span {
+                font-family: unset;
+                font-size: 1rem;
+                font-weight: 800;
+                color: unset;
+                letter-spacing: 0.02rem; }
+    body .grid-armatupc .section-armatupc-5 {
+      width: unset;
+      height: unset; }
+      body .grid-armatupc .section-armatupc-5 h2 {
+        font-family: "roboto mono";
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: white;
+        letter-spacing: 0.5rem; }
+      body .grid-armatupc .section-armatupc-5 article {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 47% 53%;
+        grid-template-areas: unset;
+        gap: unset;
+        align-items: unset;
+        justify-items: unset;
+        align-content: unset;
+        justify-content: unset; }
+        body .grid-armatupc .section-armatupc-5 article .div-elden-minimos {
+          grid-column: 1 / 2;
+          grid-row: 1 / 2;
+          align-self: unset;
+          justify-self: unset;
+          display: unset;
+          flex-direction: unset;
+          flex-wrap: unset;
+          justify-content: unset;
+          align-items: unset;
+          align-content: unset;
+          row-gap: unset;
+          column-gap: unset;
+          contain: unset;
+          border-radius: 30px;
+          background-color: #bababa21;
+          margin: unset;
+          border: unset;
+          padding: 0 0 5% 0;
+          width: unset;
+          height: unset; }
+          body .grid-armatupc .section-armatupc-5 article .div-elden-minimos h3 {
+            font-family: "roboto";
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #409fff;
+            letter-spacing: 0.03rem;
+            margin: 2.5% 0;
+            border: unset;
+            padding: unset;
+            text-align: center; }
+          body .grid-armatupc .section-armatupc-5 article .div-elden-minimos ul {
+            line-height: unset;
+            list-style: none;
+            margin: 0 8%;
+            border: unset;
+            padding: unset; }
+            body .grid-armatupc .section-armatupc-5 article .div-elden-minimos ul li {
+              font-family: "roboto";
+              font-size: 0.875rem;
+              font-weight: 500;
+              color: white;
+              letter-spacing: 0.01rem; }
+              body .grid-armatupc .section-armatupc-5 article .div-elden-minimos ul li span {
+                font-family: unset;
+                font-size: 1rem;
+                font-weight: 800;
+                color: unset;
+                letter-spacing: 0.02rem; }
+        body .grid-armatupc .section-armatupc-5 article .div-elden-recomendados {
+          grid-column: 1 / 2;
+          grid-row: 2 / 3;
+          align-self: unset;
+          justify-self: unset;
+          display: unset;
+          flex-direction: unset;
+          flex-wrap: unset;
+          justify-content: unset;
+          align-items: unset;
+          align-content: unset;
+          row-gap: unset;
+          column-gap: unset;
+          contain: unset;
+          border-radius: 30px;
+          background-color: #bababa21;
+          margin: 5% 0 0 0;
+          border: unset;
+          padding: 0 0 5% 0;
+          width: unset;
+          height: unset; }
+          body .grid-armatupc .section-armatupc-5 article .div-elden-recomendados h3 {
+            font-family: "roboto";
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #409fff;
+            letter-spacing: 0.03rem;
+            margin: 2.5% 0;
+            border: unset;
+            padding: unset;
+            text-align: center; }
+          body .grid-armatupc .section-armatupc-5 article .div-elden-recomendados ul {
+            line-height: unset;
+            list-style: none;
+            margin: 0 10%;
+            border: unset;
+            padding: unset; }
+            body .grid-armatupc .section-armatupc-5 article .div-elden-recomendados ul li {
+              font-family: "roboto";
+              font-size: 0.875rem;
+              font-weight: 500;
+              color: white;
+              letter-spacing: 0.01rem; }
+              body .grid-armatupc .section-armatupc-5 article .div-elden-recomendados ul li span {
+                font-family: unset;
+                font-size: 1rem;
+                font-weight: 800;
+                color: unset;
+                letter-spacing: 0.02rem; }
+    body .grid-armatupc .section-armatupc-6 h2, body .grid-armatupc .section-armatupc-7 h2, body .grid-armatupc .section-armatupc-8 h2 {
+      font-family: "roboto mono";
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: white;
+      letter-spacing: 0.5rem; }
+    body .grid-armatupc .section-armatupc-6 article div h3, body .grid-armatupc .section-armatupc-7 article div h3, body .grid-armatupc .section-armatupc-8 article div h3 {
+      font-family: "roboto";
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: #409fff;
+      letter-spacing: 0.03rem; }
+    body .grid-armatupc .section-armatupc-6 article div ul li, body .grid-armatupc .section-armatupc-7 article div ul li, body .grid-armatupc .section-armatupc-8 article div ul li {
+      font-family: "roboto";
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: white;
+      letter-spacing: 0.01rem; }
+      body .grid-armatupc .section-armatupc-6 article div ul li span, body .grid-armatupc .section-armatupc-7 article div ul li span, body .grid-armatupc .section-armatupc-8 article div ul li span {
+        font-family: unset;
+        font-size: 0.875rem;
+        font-weight: 800;
+        color: unset;
+        letter-spacing: 0.02rem; } }
 
 @media (max-width: 380px) {
   body .grid-inicio .section-1-flex {
@@ -1678,6 +2341,980 @@ body .desktop-no .privacy-responsive-one {
     body .grid-inicio .section-1 button a {
       padding: 1%; } }
 
+@media (max-width: 375px) {
+  body .grid-armatupc {
+    width: unset;
+    height: 7800px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 6.3% 1.7% 19.3% 19.3% 19.3% 11.3% 11.3% 11.3%;
+    grid-template-areas: unset; }
+    body .grid-armatupc .section-armatupc-1 article h1 {
+      font-family: "roboto";
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: white;
+      letter-spacing: 0.1rem; }
+    body .grid-armatupc .section-armatupc-1 article p {
+      font-family: "roboto";
+      font-size: 1rem;
+      font-weight: 500;
+      color: white;
+      letter-spacing: 0.01rem;
+      margin: 0.2rem 0;
+      border: 0;
+      padding: 0.1rem 1.5rem; }
+    body .grid-armatupc .section-armatupc-1 article .paragraph-two {
+      font-family: "roboto";
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: black;
+      letter-spacing: 0.01rem;
+      margin: 0.1rem 0;
+      border: 0;
+      padding: 0.5rem 0.8rem; }
+    body .grid-armatupc .section-armatupc-2 {
+      grid-column: 1 / 5;
+      grid-row: 2 / 3;
+      align-self: unset;
+      justify-self: unset; }
+      body .grid-armatupc .section-armatupc-2 ul {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 50% 50%;
+        grid-template-areas: unset; }
+        body .grid-armatupc .section-armatupc-2 ul .requisitoscs2 {
+          grid-column: 1 / 2;
+          grid-row: 1 / 2;
+          align-self: center;
+          justify-self: unset;
+          margin: 5% 0;
+          border: unset;
+          padding: 0.5% 1.5%; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitoscs2 a {
+            font-family: "roboto mono";
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: white;
+            letter-spacing: 0.1rem; }
+        body .grid-armatupc .section-armatupc-2 ul .requisitoslol {
+          grid-column: 2 / 3;
+          grid-row: 1 / 2;
+          align-self: center;
+          justify-self: unset;
+          margin: unset;
+          border: unset;
+          padding: 0.5% 1.5%; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitoslol a {
+            font-family: "roboto mono";
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: white;
+            letter-spacing: 0.1rem; }
+        body .grid-armatupc .section-armatupc-2 ul .requisitoselden {
+          grid-column: 3 / 4;
+          grid-row: 1 / 2;
+          align-self: center;
+          justify-self: unset; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitoselden a {
+            font-family: "roboto mono";
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: white;
+            letter-spacing: 0.1rem; }
+        body .grid-armatupc .section-armatupc-2 ul .requisitosdavincir19 {
+          grid-column: 1 / 2;
+          grid-row: 2 / 3;
+          align-self: center;
+          justify-self: unset; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitosdavincir19 a {
+            font-family: "roboto mono";
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: white;
+            letter-spacing: 0.1rem; }
+        body .grid-armatupc .section-armatupc-2 ul .requisitosblender {
+          grid-column: 2 / 3;
+          grid-row: 2 / 3;
+          align-self: center;
+          justify-self: unset; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitosblender a {
+            font-family: "roboto mono";
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: white;
+            letter-spacing: 0.1rem; }
+        body .grid-armatupc .section-armatupc-2 ul .requisitosadobepp {
+          grid-column: 3 / 4;
+          grid-row: 2 / 3;
+          align-self: center;
+          justify-self: unset; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitosadobepp a {
+            font-family: "roboto mono";
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: white;
+            letter-spacing: 0.1rem; }
+      body .grid-armatupc .section-armatupc-2 ul li a {
+        font-family: "roboto mono";
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: white;
+        letter-spacing: 0.1rem; }
+    body .grid-armatupc .section-armatupc-3, body .grid-armatupc .section-armatupc-4, body .grid-armatupc .section-armatupc-5 {
+      width: unset;
+      height: unset; }
+      body .grid-armatupc .section-armatupc-3 h2, body .grid-armatupc .section-armatupc-4 h2, body .grid-armatupc .section-armatupc-5 h2 {
+        font-family: "roboto mono";
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: white;
+        letter-spacing: 0.5rem; }
+      body .grid-armatupc .section-armatupc-3 article, body .grid-armatupc .section-armatupc-4 article, body .grid-armatupc .section-armatupc-5 article {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 47% 53%;
+        grid-template-areas: unset;
+        gap: unset;
+        align-items: unset;
+        justify-items: unset;
+        align-content: unset;
+        justify-content: unset; }
+        body .grid-armatupc .section-armatupc-3 article .div-cs2-minimos, body .grid-armatupc .section-armatupc-4 article .div-cs2-minimos, body .grid-armatupc .section-armatupc-5 article .div-cs2-minimos {
+          grid-column: 1 / 2;
+          grid-row: 1 / 2;
+          align-self: unset;
+          justify-self: unset;
+          display: unset;
+          flex-direction: unset;
+          flex-wrap: unset;
+          justify-content: unset;
+          align-items: unset;
+          align-content: unset;
+          row-gap: unset;
+          column-gap: unset;
+          contain: unset;
+          border-radius: 30px;
+          background-color: #bababa21;
+          margin: unset;
+          border: unset;
+          padding: 0 0 5% 0;
+          width: unset;
+          height: unset; }
+          body .grid-armatupc .section-armatupc-3 article .div-cs2-minimos h3, body .grid-armatupc .section-armatupc-4 article .div-cs2-minimos h3, body .grid-armatupc .section-armatupc-5 article .div-cs2-minimos h3 {
+            font-family: "roboto";
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #409fff;
+            letter-spacing: 0.03rem;
+            margin: 2.5% 0;
+            border: unset;
+            padding: unset;
+            text-align: center; }
+          body .grid-armatupc .section-armatupc-3 article .div-cs2-minimos ul, body .grid-armatupc .section-armatupc-4 article .div-cs2-minimos ul, body .grid-armatupc .section-armatupc-5 article .div-cs2-minimos ul {
+            line-height: unset;
+            list-style: none;
+            margin: 0 8%;
+            border: unset;
+            padding: unset; }
+            body .grid-armatupc .section-armatupc-3 article .div-cs2-minimos ul li, body .grid-armatupc .section-armatupc-4 article .div-cs2-minimos ul li, body .grid-armatupc .section-armatupc-5 article .div-cs2-minimos ul li {
+              font-family: "roboto";
+              font-size: 0.875rem;
+              font-weight: 500;
+              color: white;
+              letter-spacing: 0.01rem; }
+              body .grid-armatupc .section-armatupc-3 article .div-cs2-minimos ul li span, body .grid-armatupc .section-armatupc-4 article .div-cs2-minimos ul li span, body .grid-armatupc .section-armatupc-5 article .div-cs2-minimos ul li span {
+                font-family: unset;
+                font-size: 1rem;
+                font-weight: 800;
+                color: unset;
+                letter-spacing: 0.02rem; }
+        body .grid-armatupc .section-armatupc-3 article .div-cs2-recomendados, body .grid-armatupc .section-armatupc-4 article .div-cs2-recomendados, body .grid-armatupc .section-armatupc-5 article .div-cs2-recomendados {
+          grid-column: 1 / 2;
+          grid-row: 2 / 3;
+          align-self: unset;
+          justify-self: unset;
+          display: unset;
+          flex-direction: unset;
+          flex-wrap: unset;
+          justify-content: unset;
+          align-items: unset;
+          align-content: unset;
+          row-gap: unset;
+          column-gap: unset;
+          contain: unset;
+          border-radius: 30px;
+          background-color: #bababa21;
+          margin: 5% 0 0 0;
+          border: unset;
+          padding: 0 0 5% 0;
+          width: unset;
+          height: unset; }
+          body .grid-armatupc .section-armatupc-3 article .div-cs2-recomendados h3, body .grid-armatupc .section-armatupc-4 article .div-cs2-recomendados h3, body .grid-armatupc .section-armatupc-5 article .div-cs2-recomendados h3 {
+            font-family: "roboto";
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #409fff;
+            letter-spacing: 0.03rem;
+            margin: 2.5% 0;
+            border: unset;
+            padding: unset;
+            text-align: center; }
+          body .grid-armatupc .section-armatupc-3 article .div-cs2-recomendados ul, body .grid-armatupc .section-armatupc-4 article .div-cs2-recomendados ul, body .grid-armatupc .section-armatupc-5 article .div-cs2-recomendados ul {
+            line-height: unset;
+            list-style: none;
+            margin: 0 10%;
+            border: unset;
+            padding: unset; }
+            body .grid-armatupc .section-armatupc-3 article .div-cs2-recomendados ul li, body .grid-armatupc .section-armatupc-4 article .div-cs2-recomendados ul li, body .grid-armatupc .section-armatupc-5 article .div-cs2-recomendados ul li {
+              font-family: "roboto";
+              font-size: 0.875rem;
+              font-weight: 500;
+              color: white;
+              letter-spacing: 0.01rem; }
+              body .grid-armatupc .section-armatupc-3 article .div-cs2-recomendados ul li span, body .grid-armatupc .section-armatupc-4 article .div-cs2-recomendados ul li span, body .grid-armatupc .section-armatupc-5 article .div-cs2-recomendados ul li span {
+                font-family: unset;
+                font-size: 1rem;
+                font-weight: 800;
+                color: unset;
+                letter-spacing: 0.02rem; }
+    body .grid-armatupc .section-armatupc-4 {
+      width: unset;
+      height: unset; }
+      body .grid-armatupc .section-armatupc-4 h2 {
+        font-family: "roboto mono";
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: white;
+        letter-spacing: 0.5rem; }
+      body .grid-armatupc .section-armatupc-4 article {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 44% 56%;
+        grid-template-areas: unset;
+        gap: unset;
+        align-items: unset;
+        justify-items: unset;
+        align-content: unset;
+        justify-content: unset; }
+        body .grid-armatupc .section-armatupc-4 article .div-lol-minimos {
+          grid-column: 1 / 2;
+          grid-row: 1 / 2;
+          align-self: unset;
+          justify-self: unset;
+          display: unset;
+          flex-direction: unset;
+          flex-wrap: unset;
+          justify-content: unset;
+          align-items: unset;
+          align-content: unset;
+          row-gap: unset;
+          column-gap: unset;
+          contain: unset;
+          border-radius: 30px;
+          background-color: #bababa21;
+          margin: unset;
+          border: unset;
+          padding: 0 0 5% 0;
+          width: unset;
+          height: unset; }
+          body .grid-armatupc .section-armatupc-4 article .div-lol-minimos h3 {
+            font-family: "roboto";
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #409fff;
+            letter-spacing: 0.03rem;
+            margin: 2.5% 0;
+            border: unset;
+            padding: unset;
+            text-align: center; }
+          body .grid-armatupc .section-armatupc-4 article .div-lol-minimos ul {
+            line-height: unset;
+            list-style: none;
+            margin: 0 8%;
+            border: unset;
+            padding: unset; }
+            body .grid-armatupc .section-armatupc-4 article .div-lol-minimos ul li {
+              font-family: "roboto";
+              font-size: 0.875rem;
+              font-weight: 500;
+              color: white;
+              letter-spacing: 0.01rem; }
+              body .grid-armatupc .section-armatupc-4 article .div-lol-minimos ul li span {
+                font-family: unset;
+                font-size: 1rem;
+                font-weight: 800;
+                color: unset;
+                letter-spacing: 0.02rem; }
+        body .grid-armatupc .section-armatupc-4 article .div-lol-recomendados {
+          grid-column: 1 / 2;
+          grid-row: 2 / 3;
+          align-self: unset;
+          justify-self: unset;
+          display: unset;
+          flex-direction: unset;
+          flex-wrap: unset;
+          justify-content: unset;
+          align-items: unset;
+          align-content: unset;
+          row-gap: unset;
+          column-gap: unset;
+          contain: unset;
+          border-radius: 30px;
+          background-color: #bababa21;
+          margin: 5% 0 0 0;
+          border: unset;
+          padding: 0 0 5% 0;
+          width: unset;
+          height: fit-content; }
+          body .grid-armatupc .section-armatupc-4 article .div-lol-recomendados h3 {
+            font-family: "roboto";
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #409fff;
+            letter-spacing: 0.03rem;
+            margin: 2.5% 0;
+            border: unset;
+            padding: unset;
+            text-align: center; }
+          body .grid-armatupc .section-armatupc-4 article .div-lol-recomendados ul {
+            line-height: unset;
+            list-style: none;
+            margin: 0 10%;
+            border: unset;
+            padding: unset; }
+            body .grid-armatupc .section-armatupc-4 article .div-lol-recomendados ul li {
+              font-family: "roboto";
+              font-size: 0.875rem;
+              font-weight: 500;
+              color: white;
+              letter-spacing: 0.01rem; }
+              body .grid-armatupc .section-armatupc-4 article .div-lol-recomendados ul li span {
+                font-family: unset;
+                font-size: 1rem;
+                font-weight: 800;
+                color: unset;
+                letter-spacing: 0.02rem; }
+    body .grid-armatupc .section-armatupc-5 {
+      width: unset;
+      height: unset; }
+      body .grid-armatupc .section-armatupc-5 h2 {
+        font-family: "roboto mono";
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: white;
+        letter-spacing: 0.5rem; }
+      body .grid-armatupc .section-armatupc-5 article {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 47% 53%;
+        grid-template-areas: unset;
+        gap: unset;
+        align-items: unset;
+        justify-items: unset;
+        align-content: unset;
+        justify-content: unset; }
+        body .grid-armatupc .section-armatupc-5 article .div-elden-minimos {
+          grid-column: 1 / 2;
+          grid-row: 1 / 2;
+          align-self: unset;
+          justify-self: unset;
+          display: unset;
+          flex-direction: unset;
+          flex-wrap: unset;
+          justify-content: unset;
+          align-items: unset;
+          align-content: unset;
+          row-gap: unset;
+          column-gap: unset;
+          contain: unset;
+          border-radius: 30px;
+          background-color: #bababa21;
+          margin: unset;
+          border: unset;
+          padding: 0 0 5% 0;
+          width: unset;
+          height: unset; }
+          body .grid-armatupc .section-armatupc-5 article .div-elden-minimos h3 {
+            font-family: "roboto";
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #409fff;
+            letter-spacing: 0.03rem;
+            margin: 2.5% 0;
+            border: unset;
+            padding: unset;
+            text-align: center; }
+          body .grid-armatupc .section-armatupc-5 article .div-elden-minimos ul {
+            line-height: unset;
+            list-style: none;
+            margin: 0 8%;
+            border: unset;
+            padding: unset; }
+            body .grid-armatupc .section-armatupc-5 article .div-elden-minimos ul li {
+              font-family: "roboto";
+              font-size: 0.875rem;
+              font-weight: 500;
+              color: white;
+              letter-spacing: 0.01rem; }
+              body .grid-armatupc .section-armatupc-5 article .div-elden-minimos ul li span {
+                font-family: unset;
+                font-size: 1rem;
+                font-weight: 800;
+                color: unset;
+                letter-spacing: 0.02rem; }
+        body .grid-armatupc .section-armatupc-5 article .div-elden-recomendados {
+          grid-column: 1 / 2;
+          grid-row: 2 / 3;
+          align-self: unset;
+          justify-self: unset;
+          display: unset;
+          flex-direction: unset;
+          flex-wrap: unset;
+          justify-content: unset;
+          align-items: unset;
+          align-content: unset;
+          row-gap: unset;
+          column-gap: unset;
+          contain: unset;
+          border-radius: 30px;
+          background-color: #bababa21;
+          margin: 5% 0 0 0;
+          border: unset;
+          padding: 0 0 5% 0;
+          width: unset;
+          height: unset; }
+          body .grid-armatupc .section-armatupc-5 article .div-elden-recomendados h3 {
+            font-family: "roboto";
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #409fff;
+            letter-spacing: 0.03rem;
+            margin: 2.5% 0;
+            border: unset;
+            padding: unset;
+            text-align: center; }
+          body .grid-armatupc .section-armatupc-5 article .div-elden-recomendados ul {
+            line-height: unset;
+            list-style: none;
+            margin: 0 10%;
+            border: unset;
+            padding: unset; }
+            body .grid-armatupc .section-armatupc-5 article .div-elden-recomendados ul li {
+              font-family: "roboto";
+              font-size: 0.875rem;
+              font-weight: 500;
+              color: white;
+              letter-spacing: 0.01rem; }
+              body .grid-armatupc .section-armatupc-5 article .div-elden-recomendados ul li span {
+                font-family: unset;
+                font-size: 1rem;
+                font-weight: 800;
+                color: unset;
+                letter-spacing: 0.02rem; }
+    body .grid-armatupc .section-armatupc-6 h2, body .grid-armatupc .section-armatupc-7 h2, body .grid-armatupc .section-armatupc-8 h2 {
+      font-family: "roboto mono";
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: white;
+      letter-spacing: 0.5rem; }
+    body .grid-armatupc .section-armatupc-6 article div h3, body .grid-armatupc .section-armatupc-7 article div h3, body .grid-armatupc .section-armatupc-8 article div h3 {
+      font-family: "roboto";
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: #409fff;
+      letter-spacing: 0.03rem; }
+    body .grid-armatupc .section-armatupc-6 article div ul li, body .grid-armatupc .section-armatupc-7 article div ul li, body .grid-armatupc .section-armatupc-8 article div ul li {
+      font-family: "roboto";
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: white;
+      letter-spacing: 0.01rem; }
+      body .grid-armatupc .section-armatupc-6 article div ul li span, body .grid-armatupc .section-armatupc-7 article div ul li span, body .grid-armatupc .section-armatupc-8 article div ul li span {
+        font-family: unset;
+        font-size: 0.875rem;
+        font-weight: 800;
+        color: unset;
+        letter-spacing: 0.02rem; } }
+
 @media (max-width: 340px) {
   body .grid-inicio .section-1 button {
     margin: 50% 0% 0 6%; } }
+
+@media (max-width: 375px) {
+  body .grid-armatupc {
+    width: unset;
+    height: 9000px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 6.3% 1.7% 19.3% 19.3% 19.3% 11.3% 11.3% 11.3%;
+    grid-template-areas: unset; }
+    body .grid-armatupc .section-armatupc-1 article h1 {
+      font-family: "roboto";
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: white;
+      letter-spacing: 0.1rem; }
+    body .grid-armatupc .section-armatupc-1 article p {
+      font-family: "roboto";
+      font-size: 1rem;
+      font-weight: 500;
+      color: white;
+      letter-spacing: 0.01rem;
+      margin: 0.2rem 0;
+      border: 0;
+      padding: 0.1rem 1.5rem; }
+    body .grid-armatupc .section-armatupc-1 article .paragraph-two {
+      font-family: "roboto";
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: black;
+      letter-spacing: 0.01rem;
+      margin: 0.1rem 0;
+      border: 0;
+      padding: 0.5rem 0.8rem; }
+    body .grid-armatupc .section-armatupc-2 {
+      grid-column: 1 / 5;
+      grid-row: 2 / 3;
+      align-self: unset;
+      justify-self: unset; }
+      body .grid-armatupc .section-armatupc-2 ul {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 50% 50%;
+        grid-template-areas: unset; }
+        body .grid-armatupc .section-armatupc-2 ul .requisitoscs2 {
+          grid-column: 1 / 2;
+          grid-row: 1 / 2;
+          align-self: center;
+          justify-self: unset;
+          margin: 5% 0;
+          border: unset;
+          padding: 0.5% 1.5%; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitoscs2 a {
+            font-family: "roboto mono";
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: white;
+            letter-spacing: 0.1rem; }
+        body .grid-armatupc .section-armatupc-2 ul .requisitoslol {
+          grid-column: 2 / 3;
+          grid-row: 1 / 2;
+          align-self: center;
+          justify-self: unset;
+          margin: unset;
+          border: unset;
+          padding: 0.5% 1.5%; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitoslol a {
+            font-family: "roboto mono";
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: white;
+            letter-spacing: 0.1rem; }
+        body .grid-armatupc .section-armatupc-2 ul .requisitoselden {
+          grid-column: 3 / 4;
+          grid-row: 1 / 2;
+          align-self: center;
+          justify-self: unset; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitoselden a {
+            font-family: "roboto mono";
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: white;
+            letter-spacing: 0.1rem; }
+        body .grid-armatupc .section-armatupc-2 ul .requisitosdavincir19 {
+          grid-column: 1 / 2;
+          grid-row: 2 / 3;
+          align-self: center;
+          justify-self: unset; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitosdavincir19 a {
+            font-family: "roboto mono";
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: white;
+            letter-spacing: 0.1rem; }
+        body .grid-armatupc .section-armatupc-2 ul .requisitosblender {
+          grid-column: 2 / 3;
+          grid-row: 2 / 3;
+          align-self: center;
+          justify-self: unset; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitosblender a {
+            font-family: "roboto mono";
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: white;
+            letter-spacing: 0.1rem; }
+        body .grid-armatupc .section-armatupc-2 ul .requisitosadobepp {
+          grid-column: 3 / 4;
+          grid-row: 2 / 3;
+          align-self: center;
+          justify-self: unset; }
+          body .grid-armatupc .section-armatupc-2 ul .requisitosadobepp a {
+            font-family: "roboto mono";
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: white;
+            letter-spacing: 0.1rem; }
+      body .grid-armatupc .section-armatupc-2 ul li a {
+        font-family: "roboto mono";
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: white;
+        letter-spacing: 0.1rem; }
+    body .grid-armatupc .section-armatupc-3, body .grid-armatupc .section-armatupc-4, body .grid-armatupc .section-armatupc-5 {
+      width: unset;
+      height: unset; }
+      body .grid-armatupc .section-armatupc-3 h2, body .grid-armatupc .section-armatupc-4 h2, body .grid-armatupc .section-armatupc-5 h2 {
+        font-family: "roboto mono";
+        font-size: 1rem;
+        font-weight: 400;
+        color: white;
+        letter-spacing: 0.5rem; }
+      body .grid-armatupc .section-armatupc-3 article, body .grid-armatupc .section-armatupc-4 article, body .grid-armatupc .section-armatupc-5 article {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 47% 53%;
+        grid-template-areas: unset;
+        gap: unset;
+        align-items: unset;
+        justify-items: unset;
+        align-content: unset;
+        justify-content: unset; }
+        body .grid-armatupc .section-armatupc-3 article .div-cs2-minimos, body .grid-armatupc .section-armatupc-4 article .div-cs2-minimos, body .grid-armatupc .section-armatupc-5 article .div-cs2-minimos {
+          grid-column: 1 / 2;
+          grid-row: 1 / 2;
+          align-self: unset;
+          justify-self: unset;
+          display: unset;
+          flex-direction: unset;
+          flex-wrap: unset;
+          justify-content: unset;
+          align-items: unset;
+          align-content: unset;
+          row-gap: unset;
+          column-gap: unset;
+          contain: unset;
+          border-radius: 30px;
+          background-color: #bababa21;
+          margin: unset;
+          border: unset;
+          padding: 0 0 5% 0;
+          width: unset;
+          height: unset; }
+          body .grid-armatupc .section-armatupc-3 article .div-cs2-minimos h3, body .grid-armatupc .section-armatupc-4 article .div-cs2-minimos h3, body .grid-armatupc .section-armatupc-5 article .div-cs2-minimos h3 {
+            font-family: "roboto";
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #409fff;
+            letter-spacing: 0.03rem;
+            margin: 2.5% 0;
+            border: unset;
+            padding: unset;
+            text-align: center; }
+          body .grid-armatupc .section-armatupc-3 article .div-cs2-minimos ul, body .grid-armatupc .section-armatupc-4 article .div-cs2-minimos ul, body .grid-armatupc .section-armatupc-5 article .div-cs2-minimos ul {
+            line-height: unset;
+            list-style: none;
+            margin: 0 8%;
+            border: unset;
+            padding: unset; }
+            body .grid-armatupc .section-armatupc-3 article .div-cs2-minimos ul li, body .grid-armatupc .section-armatupc-4 article .div-cs2-minimos ul li, body .grid-armatupc .section-armatupc-5 article .div-cs2-minimos ul li {
+              font-family: "roboto";
+              font-size: 0.875rem;
+              font-weight: 500;
+              color: white;
+              letter-spacing: 0.01rem; }
+              body .grid-armatupc .section-armatupc-3 article .div-cs2-minimos ul li span, body .grid-armatupc .section-armatupc-4 article .div-cs2-minimos ul li span, body .grid-armatupc .section-armatupc-5 article .div-cs2-minimos ul li span {
+                font-family: unset;
+                font-size: 1rem;
+                font-weight: 800;
+                color: unset;
+                letter-spacing: 0.02rem; }
+        body .grid-armatupc .section-armatupc-3 article .div-cs2-recomendados, body .grid-armatupc .section-armatupc-4 article .div-cs2-recomendados, body .grid-armatupc .section-armatupc-5 article .div-cs2-recomendados {
+          grid-column: 1 / 2;
+          grid-row: 2 / 3;
+          align-self: unset;
+          justify-self: unset;
+          display: unset;
+          flex-direction: unset;
+          flex-wrap: unset;
+          justify-content: unset;
+          align-items: unset;
+          align-content: unset;
+          row-gap: unset;
+          column-gap: unset;
+          contain: unset;
+          border-radius: 30px;
+          background-color: #bababa21;
+          margin: 5% 0 0 0;
+          border: unset;
+          padding: 0 0 5% 0;
+          width: unset;
+          height: unset; }
+          body .grid-armatupc .section-armatupc-3 article .div-cs2-recomendados h3, body .grid-armatupc .section-armatupc-4 article .div-cs2-recomendados h3, body .grid-armatupc .section-armatupc-5 article .div-cs2-recomendados h3 {
+            font-family: "roboto";
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #409fff;
+            letter-spacing: 0.03rem;
+            margin: 2.5% 0;
+            border: unset;
+            padding: unset;
+            text-align: center; }
+          body .grid-armatupc .section-armatupc-3 article .div-cs2-recomendados ul, body .grid-armatupc .section-armatupc-4 article .div-cs2-recomendados ul, body .grid-armatupc .section-armatupc-5 article .div-cs2-recomendados ul {
+            line-height: unset;
+            list-style: none;
+            margin: 0 10%;
+            border: unset;
+            padding: unset; }
+            body .grid-armatupc .section-armatupc-3 article .div-cs2-recomendados ul li, body .grid-armatupc .section-armatupc-4 article .div-cs2-recomendados ul li, body .grid-armatupc .section-armatupc-5 article .div-cs2-recomendados ul li {
+              font-family: "roboto";
+              font-size: 0.875rem;
+              font-weight: 500;
+              color: white;
+              letter-spacing: 0.01rem; }
+              body .grid-armatupc .section-armatupc-3 article .div-cs2-recomendados ul li span, body .grid-armatupc .section-armatupc-4 article .div-cs2-recomendados ul li span, body .grid-armatupc .section-armatupc-5 article .div-cs2-recomendados ul li span {
+                font-family: unset;
+                font-size: 1rem;
+                font-weight: 800;
+                color: unset;
+                letter-spacing: 0.02rem; }
+    body .grid-armatupc .section-armatupc-4 {
+      width: unset;
+      height: unset; }
+      body .grid-armatupc .section-armatupc-4 h2 {
+        font-family: "roboto mono";
+        font-size: 1rem;
+        font-weight: 400;
+        color: white;
+        letter-spacing: 0.5rem; }
+      body .grid-armatupc .section-armatupc-4 article {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 44% 56%;
+        grid-template-areas: unset;
+        gap: unset;
+        align-items: unset;
+        justify-items: unset;
+        align-content: unset;
+        justify-content: unset; }
+        body .grid-armatupc .section-armatupc-4 article .div-lol-minimos {
+          grid-column: 1 / 2;
+          grid-row: 1 / 2;
+          align-self: unset;
+          justify-self: unset;
+          display: unset;
+          flex-direction: unset;
+          flex-wrap: unset;
+          justify-content: unset;
+          align-items: unset;
+          align-content: unset;
+          row-gap: unset;
+          column-gap: unset;
+          contain: unset;
+          border-radius: 30px;
+          background-color: #bababa21;
+          margin: unset;
+          border: unset;
+          padding: 0 0 5% 0;
+          width: unset;
+          height: unset; }
+          body .grid-armatupc .section-armatupc-4 article .div-lol-minimos h3 {
+            font-family: "roboto";
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #409fff;
+            letter-spacing: 0.03rem;
+            margin: 2.5% 0;
+            border: unset;
+            padding: unset;
+            text-align: center; }
+          body .grid-armatupc .section-armatupc-4 article .div-lol-minimos ul {
+            line-height: unset;
+            list-style: none;
+            margin: 0 8%;
+            border: unset;
+            padding: unset; }
+            body .grid-armatupc .section-armatupc-4 article .div-lol-minimos ul li {
+              font-family: "roboto";
+              font-size: 0.875rem;
+              font-weight: 500;
+              color: white;
+              letter-spacing: 0.01rem; }
+              body .grid-armatupc .section-armatupc-4 article .div-lol-minimos ul li span {
+                font-family: unset;
+                font-size: 1rem;
+                font-weight: 800;
+                color: unset;
+                letter-spacing: 0.02rem; }
+        body .grid-armatupc .section-armatupc-4 article .div-lol-recomendados {
+          grid-column: 1 / 2;
+          grid-row: 2 / 3;
+          align-self: unset;
+          justify-self: unset;
+          display: unset;
+          flex-direction: unset;
+          flex-wrap: unset;
+          justify-content: unset;
+          align-items: unset;
+          align-content: unset;
+          row-gap: unset;
+          column-gap: unset;
+          contain: unset;
+          border-radius: 30px;
+          background-color: #bababa21;
+          margin: 5% 0 0 0;
+          border: unset;
+          padding: 0 0 5% 0;
+          width: unset;
+          height: fit-content; }
+          body .grid-armatupc .section-armatupc-4 article .div-lol-recomendados h3 {
+            font-family: "roboto";
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #409fff;
+            letter-spacing: 0.03rem;
+            margin: 2.5% 0;
+            border: unset;
+            padding: unset;
+            text-align: center; }
+          body .grid-armatupc .section-armatupc-4 article .div-lol-recomendados ul {
+            line-height: unset;
+            list-style: none;
+            margin: 0 10%;
+            border: unset;
+            padding: unset; }
+            body .grid-armatupc .section-armatupc-4 article .div-lol-recomendados ul li {
+              font-family: "roboto";
+              font-size: 0.875rem;
+              font-weight: 500;
+              color: white;
+              letter-spacing: 0.01rem; }
+              body .grid-armatupc .section-armatupc-4 article .div-lol-recomendados ul li span {
+                font-family: unset;
+                font-size: 1rem;
+                font-weight: 800;
+                color: unset;
+                letter-spacing: 0.02rem; }
+    body .grid-armatupc .section-armatupc-5 {
+      width: unset;
+      height: unset; }
+      body .grid-armatupc .section-armatupc-5 h2 {
+        font-family: "roboto mono";
+        font-size: 1rem;
+        font-weight: 400;
+        color: white;
+        letter-spacing: 0.5rem; }
+      body .grid-armatupc .section-armatupc-5 article {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 47% 53%;
+        grid-template-areas: unset;
+        gap: unset;
+        align-items: unset;
+        justify-items: unset;
+        align-content: unset;
+        justify-content: unset; }
+        body .grid-armatupc .section-armatupc-5 article .div-elden-minimos {
+          grid-column: 1 / 2;
+          grid-row: 1 / 2;
+          align-self: unset;
+          justify-self: unset;
+          display: unset;
+          flex-direction: unset;
+          flex-wrap: unset;
+          justify-content: unset;
+          align-items: unset;
+          align-content: unset;
+          row-gap: unset;
+          column-gap: unset;
+          contain: unset;
+          border-radius: 30px;
+          background-color: #bababa21;
+          margin: unset;
+          border: unset;
+          padding: 0 0 5% 0;
+          width: unset;
+          height: unset; }
+          body .grid-armatupc .section-armatupc-5 article .div-elden-minimos h3 {
+            font-family: "roboto";
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #409fff;
+            letter-spacing: 0.03rem;
+            margin: 2.5% 0;
+            border: unset;
+            padding: unset;
+            text-align: center; }
+          body .grid-armatupc .section-armatupc-5 article .div-elden-minimos ul {
+            line-height: unset;
+            list-style: none;
+            margin: 0 8%;
+            border: unset;
+            padding: unset; }
+            body .grid-armatupc .section-armatupc-5 article .div-elden-minimos ul li {
+              font-family: "roboto";
+              font-size: 0.875rem;
+              font-weight: 500;
+              color: white;
+              letter-spacing: 0.01rem; }
+              body .grid-armatupc .section-armatupc-5 article .div-elden-minimos ul li span {
+                font-family: unset;
+                font-size: 1rem;
+                font-weight: 800;
+                color: unset;
+                letter-spacing: 0.02rem; }
+        body .grid-armatupc .section-armatupc-5 article .div-elden-recomendados {
+          grid-column: 1 / 2;
+          grid-row: 2 / 3;
+          align-self: unset;
+          justify-self: unset;
+          display: unset;
+          flex-direction: unset;
+          flex-wrap: unset;
+          justify-content: unset;
+          align-items: unset;
+          align-content: unset;
+          row-gap: unset;
+          column-gap: unset;
+          contain: unset;
+          border-radius: 30px;
+          background-color: #bababa21;
+          margin: 5% 0 0 0;
+          border: unset;
+          padding: 0 0 5% 0;
+          width: unset;
+          height: unset; }
+          body .grid-armatupc .section-armatupc-5 article .div-elden-recomendados h3 {
+            font-family: "roboto";
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #409fff;
+            letter-spacing: 0.03rem;
+            margin: 2.5% 0;
+            border: unset;
+            padding: unset;
+            text-align: center; }
+          body .grid-armatupc .section-armatupc-5 article .div-elden-recomendados ul {
+            line-height: unset;
+            list-style: none;
+            margin: 0 10%;
+            border: unset;
+            padding: unset; }
+            body .grid-armatupc .section-armatupc-5 article .div-elden-recomendados ul li {
+              font-family: "roboto";
+              font-size: 0.875rem;
+              font-weight: 500;
+              color: white;
+              letter-spacing: 0.01rem; }
+              body .grid-armatupc .section-armatupc-5 article .div-elden-recomendados ul li span {
+                font-family: unset;
+                font-size: 1rem;
+                font-weight: 800;
+                color: unset;
+                letter-spacing: 0.02rem; }
+    body .grid-armatupc .section-armatupc-6 h2, body .grid-armatupc .section-armatupc-7 h2, body .grid-armatupc .section-armatupc-8 h2 {
+      font-family: "roboto mono";
+      font-size: 1rem;
+      font-weight: 400;
+      color: white;
+      letter-spacing: 0.5rem; } }

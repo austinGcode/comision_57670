@@ -1,0 +1,296 @@
+@media (max-width: 375px) {
+    body {
+        .grid-armatupc {
+            @include width-height (unset, 9000px);
+            @include display-grid-container (grid, 25% 25% 25% 25%, 6.3% 1.7% 19.3% 19.3% 19.3% 11.3% 11.3% 11.3%, unset);
+
+            .section-armatupc-1 {
+                article {
+                    h1 {
+                        @include font-styles ("roboto", 1.5rem, 600, white, 0.1rem);
+                    }
+
+                    p {
+                        @include font-styles ("roboto", 1rem, 500, white, 0.01rem);
+                        @include margin-border-padding (0.2rem 0, 0, 0.1rem 1.5rem);
+                    }
+
+                    .paragraph-two {
+                        @include font-styles ("roboto", .875rem, 500, black, 0.01rem);
+                        @include margin-border-padding (0.1rem 0, 0, 0.5rem 0.8rem);
+                    }
+                }
+            }
+
+            .section-armatupc-2 {
+                @include display-grid-item ("1 / 5", "2 / 3", unset, unset);
+
+                ul {
+                    @include display-grid-container (grid, 33% 33% 33%, 50% 50%, unset);
+
+                    .requisitoscs2 {
+                        @include display-grid-item ("1 / 2", "1 / 2", center, unset);
+                        @include margin-border-padding (5% 0, unset, 0.5% 1.5%);
+
+                        a {
+                            @include font-styles ("roboto mono", .875rem, 400, white, 0.1rem);
+                        }
+                    }
+
+                    .requisitoslol {
+                        @include display-grid-item ("2 / 3", "1 / 2", center, unset);
+                        @include margin-border-padding (unset, unset, 0.5% 1.5%);
+
+                        a {
+                            @include font-styles ("roboto mono", .875rem, 400, white, 0.1rem);
+                        }
+                    }
+
+                    .requisitoselden {
+                        @include display-grid-item ("3 / 4", "1 / 2", center, unset);
+
+                        a {
+                            @include font-styles ("roboto mono", .875rem, 400, white, 0.1rem);
+                        }
+                    }
+
+                    .requisitosdavincir19 {
+                        @include display-grid-item ("1 / 2", "2 / 3", center, unset);
+
+                        a {
+                            @include font-styles ("roboto mono", .875rem, 400, white, 0.1rem);
+                        }
+                    }
+
+                    .requisitosblender {
+                        @include display-grid-item ("2 / 3", "2 / 3", center, unset);
+
+                        a {
+                            @include font-styles ("roboto mono", .875rem, 400, white, 0.1rem);
+                        }
+                    }
+
+                    .requisitosadobepp {
+                        @include display-grid-item ("3 / 4", "2 / 3", center, unset);
+
+                        a {
+                            @include font-styles ("roboto mono", .875rem, 400, white, 0.1rem);
+                        }
+                    }
+                }
+
+                ul {
+                    li {
+                        a {
+                            @include font-styles ("roboto mono", .875rem, 400, white, 0.1rem);
+                        }
+                    }
+                }
+            }
+
+            .section-armatupc-3 {
+                @include width-height (unset, unset);
+                h2 {
+                    @include font-styles ("roboto mono", 1rem, 400, white, 0.5rem);
+                }
+                article {
+                    @include display-grid-container (grid, 100%, 47% 53%, unset);
+                    @include grid-container-prop (unset, unset, unset, unset, unset);
+                    .div-cs2-minimos {
+                        @include display-grid-item ("1 / 2", "1 / 2", unset, unset);
+                        @include display-flexbox-container (unset, unset, unset);
+                        @include flexbox-container-prop (unset, unset, unset, unset, unset, unset);
+                        @include borderadious-backcolor (30px, #bababa21);
+                        @include margin-border-padding (unset, unset, 0 0 5% 0);
+                        @include width-height (unset, unset);
+
+                        h3 {
+                            @include font-styles ("roboto", 1.15rem, 700, #409fff, 0.03rem);
+                            @include margin-border-padding (2.5% 0, unset, unset);
+                            text-align: center
+                        }
+
+                        ul {
+                            @include lineheight-liststyle (unset, none);
+                            @include margin-border-padding (0 8%, unset, unset);
+
+                            li {
+                                @include font-styles ("roboto", .875rem, 500, white, 0.01rem);
+
+                                span {
+                                    @include font-styles (unset, 1rem, 800, unset, 0.02rem);
+                                }
+                            }
+                        }
+                    }
+
+                    .div-cs2-recomendados {
+                        @include display-grid-item ("1 / 2", "2 / 3", unset, unset);
+                        @include display-flexbox-container (unset, unset, unset);
+                        @include flexbox-container-prop (unset, unset, unset, unset, unset, unset);
+                        @include borderadious-backcolor (30px, #bababa21);
+                        @include margin-border-padding (5% 0 0 0, unset, 0 0 5% 0);
+                        @include width-height (unset, unset);
+
+                        h3 {
+                            @include font-styles ("roboto", 1.15rem, 700, #409fff, 0.03rem);
+                            @include margin-border-padding (2.5% 0, unset, unset);
+                            text-align: center
+                        }
+
+                        ul {
+                            @include lineheight-liststyle (unset, none);
+                            @include margin-border-padding (0 10%, unset, unset);
+
+                            li {
+                                @include font-styles ("roboto", .875rem, 500, white, 0.01rem);
+
+                                span {
+                                    @include font-styles (unset, 1rem, 800, unset, 0.02rem);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .section-armatupc-4 {
+                @include width-height (unset, unset);
+                h2 {
+                    @include font-styles ("roboto mono", 1rem, 400, white, 0.5rem);
+                }
+                article {
+                    @include display-grid-container (grid, 100%, 44% 56%, unset);
+                    @include grid-container-prop (unset, unset, unset, unset, unset);
+                    .div-lol-minimos {
+                        @include display-grid-item ("1 / 2", "1 / 2", unset, unset);
+                        @include display-flexbox-container (unset, unset, unset);
+                        @include flexbox-container-prop (unset, unset, unset, unset, unset, unset);
+                        @include borderadious-backcolor (30px, #bababa21);
+                        @include margin-border-padding (unset, unset, 0 0 5% 0);
+                        @include width-height (unset, unset);
+
+                        h3 {
+                            @include font-styles ("roboto", 1.15rem, 700, #409fff, 0.03rem);
+                            @include margin-border-padding (2.5% 0, unset, unset);
+                            text-align: center
+                        }
+
+                        ul {
+                            @include lineheight-liststyle (unset, none);
+                            @include margin-border-padding (0 8%, unset, unset);
+
+                            li {
+                                @include font-styles ("roboto", .875rem, 500, white, 0.01rem);
+
+                                span {
+                                    @include font-styles (unset, 1rem, 800, unset, 0.02rem);
+                                }
+                            }
+                        }
+                    }
+
+                    .div-lol-recomendados {
+                        @include display-grid-item ("1 / 2", "2 / 3", unset, unset);
+                        @include display-flexbox-container (unset, unset, unset);
+                        @include flexbox-container-prop (unset, unset, unset, unset, unset, unset);
+                        @include borderadious-backcolor (30px, #bababa21);
+                        @include margin-border-padding (5% 0 0 0, unset, 0 0 5% 0);
+                        @include width-height (unset, fit-content);
+
+                        h3 {
+                            @include font-styles ("roboto", 1.15rem, 700, #409fff, 0.03rem);
+                            @include margin-border-padding (2.5% 0, unset, unset);
+                            text-align: center
+                        }
+
+                        ul {
+                            @include lineheight-liststyle (unset, none);
+                            @include margin-border-padding (0 10%, unset, unset);
+
+                            li {
+                                @include font-styles ("roboto", .875rem, 500, white, 0.01rem);
+
+                                span {
+                                    @include font-styles (unset, 1rem, 800, unset, 0.02rem);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .section-armatupc-5 {
+                @include width-height (unset, unset);
+                h2 {
+                    @include font-styles ("roboto mono", 1rem, 400, white, 0.5rem);
+                }
+                article {
+                    @include display-grid-container (grid, 100%, 47% 53%, unset);
+                    @include grid-container-prop (unset, unset, unset, unset, unset);
+                    .div-elden-minimos {
+                        @include display-grid-item ("1 / 2", "1 / 2", unset, unset);
+                        @include display-flexbox-container (unset, unset, unset);
+                        @include flexbox-container-prop (unset, unset, unset, unset, unset, unset);
+                        @include borderadious-backcolor (30px, #bababa21);
+                        @include margin-border-padding (unset, unset, 0 0 5% 0);
+                        @include width-height (unset, unset);
+
+                        h3 {
+                            @include font-styles ("roboto", 1.15rem, 700, #409fff, 0.03rem);
+                            @include margin-border-padding (2.5% 0, unset, unset);
+                            text-align: center
+                        }
+
+                        ul {
+                            @include lineheight-liststyle (unset, none);
+                            @include margin-border-padding (0 8%, unset, unset);
+
+                            li {
+                                @include font-styles ("roboto", .875rem, 500, white, 0.01rem);
+
+                                span {
+                                    @include font-styles (unset, 1rem, 800, unset, 0.02rem);
+                                }
+                            }
+                        }
+                    }
+
+                    .div-elden-recomendados {
+                        @include display-grid-item ("1 / 2", "2 / 3", unset, unset);
+                        @include display-flexbox-container (unset, unset, unset);
+                        @include flexbox-container-prop (unset, unset, unset, unset, unset, unset);
+                        @include borderadious-backcolor (30px, #bababa21);
+                        @include margin-border-padding (5% 0 0 0, unset, 0 0 5% 0);
+                        @include width-height (unset, unset);
+
+                        h3 {
+                            @include font-styles ("roboto", 1.15rem, 700, #409fff, 0.03rem);
+                            @include margin-border-padding (2.5% 0, unset, unset);
+                            text-align: center
+                        }
+
+                        ul {
+                            @include lineheight-liststyle (unset, none);
+                            @include margin-border-padding (0 10%, unset, unset);
+
+                            li {
+                                @include font-styles ("roboto", .875rem, 500, white, 0.01rem);
+
+                                span {
+                                    @include font-styles (unset, 1rem, 800, unset, 0.02rem);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .section-armatupc-6 {
+                h2 {
+                    @include font-styles ("roboto mono", 1rem, 400, white, 0.5rem);
+                }
+            }
+        }
+    }
+}
